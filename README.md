@@ -1,6 +1,4 @@
-![](https://res.cloudinary.com/briezh/image/upload/v1582916398/ga_cog_qrs1ur.png)
-
-# SEI Orientation and Prep Course Notes
+# ![](https://res.cloudinary.com/briezh/image/upload/v1582916398/ga_cog_qrs1ur.png) SEI Orientation and Prep Course Notes
 
 Welcome to General Assembly - and certainly for some of you, welcome to Seattle as well!
 
