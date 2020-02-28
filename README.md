@@ -16,4 +16,8 @@ Unlike a traditional college classroom, at GA your instructors are invested in y
 
 **You getting to know us**
 
-Of course it's nice to meet your instructors during orientation, but we think it's important for you to know some other faces on campus too! In addition to your two main instructors, you'll meet your evening TAs, the members of the other SEI instructional team, the class ahead of you that is currently about half-way through, and key GA support staff such as your front desk staff and student experience representative.
+Of course it's nice to meet your instructors during orientation, but we think it's important for you to know some other faces on campus too! In addition to your two main instructors, you'll meet your evening TAs, the members of the other SEI instructional team, the class ahead of you that is currently about half-way through, and key GA support staff such as your front desk staff, career coaches, and student experience representative.
+
+**Getting a head start on JavaScript, but at a sane pace**
+
+The purpose of the course is not to act as a cram session - we'll have 12 whole weeks for that, and trust us, we'll all need a nap afterward. Instead we'd like to get a few tedious things out of the way such as machine setup, software installations, and text editor configuration.
