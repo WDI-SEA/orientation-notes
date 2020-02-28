@@ -21,3 +21,7 @@ Of course it's nice to meet your instructors during orientation, but we think it
 **Getting a head start on JavaScript, but at a sane pace**
 
 The purpose of the course is not to act as a cram session - we'll have 12 whole weeks for that, and trust us, we'll all need a nap afterward. Instead we'd like to get a few tedious things out of the way such as machine setup, software installations, and text editor configuration. After that, we'd like to take some time to review topics that are covered in the pre-work in more detail, and start dipping our toes into JavaScript and DOM manipulation.
+
+**Normalization of asking for help**
+
+Software development is difficult. If it was easy everyone would do it! It's very important to your success both in this course and in your software jobs afterward that you *lose the fear of asking questions*. There are going to be questions. There are supposed to be questions! They're important both to your understanding of the material and our understanding of where any holes are in the curriculum.
