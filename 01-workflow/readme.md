@@ -15,3 +15,10 @@ Go through the following tables and try out each shortcut for yourself.
 | `⌘ + T` | Opens a new tab in your browser |
 | `⌘ + SHIFT + J` | Opens your devtools console |
 | `⌘ + SHIFT + I` | Opens your devtools inspector |
+
+
+**In Sublime Text**
+
+| Combo | What it does |
+| -------- | ----------------------------------- |
+| `⌘ + D` | Select the next text that matches the highlighted text |
