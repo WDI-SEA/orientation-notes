@@ -32,7 +32,9 @@ For SEI 30, starting on March 16th, 2020, you'll be meeting the following people
 * Front Lines Pro-Tips 
 * Github Basics
 * JavaScript Basics (IA or lead instructor) 1hr
+
 **LUNCH BREAK**
+
 * Ice Breaker #2 
 * JavaScript Conditionals 
 * Campus Scavenger Hunt 
@@ -46,7 +48,9 @@ For SEI 30, starting on March 16th, 2020, you'll be meeting the following people
 * Course Specific Orientation 
   * Q & A with whole instructional team
   * Q & A Session with TAs/IAs 
+
 **LUNCH BREAK**
+
 * JavaScript Iterators 
 * DOM Manipulation 
 * DOM Quiz
