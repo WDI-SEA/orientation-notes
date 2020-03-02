@@ -48,7 +48,26 @@ The first and most important things to learn about the terminal is how to see wh
 
 **Where am I?**
 
-`pwd` is short for "Print Working Directory". It will show you the path from your root to where you are currently
+`pwd` is short for "Print Working Directory". It will show you the path from your root to where you are currently.
+
+> Quick aside: "Directory" and "folder" will be used interchangably in this course! Many of the abbreviations for commands use `d` for directory. 
+
+![](https://res.cloudinary.com/briezh/image/upload/v1583173059/Screen_Shot_2020-03-02_at_10.17.17_AM_bmwfmn.png)
+
+You'll notice that the absolute path to where I am in my file system starts with a `/`. This is used to denote the "root" level of my local computer. 
+
+**List directory contents**
+
+TODO: LS and flags
+
+**Change directory**
+
+TODO: CD
+
+A moment ago we referenced `/` to refer to your computer's root directory. On the other hand, the `~` symbol is used to denote the "home" directory, which is sort of like a user-specific root. For me, my home directory is `/Users/brandiwilliams`. Check it out.
+
+![](https://res.cloudinary.com/briezh/image/upload/v1583173760/Screen_Shot_2020-03-02_at_10.27.23_AM_kk3aag.png)
+
 
 ## Some Tips
 
