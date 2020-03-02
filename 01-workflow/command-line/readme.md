@@ -90,11 +90,72 @@ If you have too much information and clutter on your screen, you can use the `cl
 
 **Making a new directory**
 
+Let's create a new folder together using the `mkdir` command (short for "Make directory"). We'll go ahead and set up a file structure we can use for the course.
+
+1. Change directories to your home directory using the command `cd ~`
+1. Make a new directory called `code` (or `GA` or `SEI` if you prefer)
+1. Change directories to your new `code` directory using the command `cd code`
+1. Make 4 new folders with the following commands - one this orientation class and one for each unit in SEI
+  * `mkdir orientation`
+  * `mkdir unit1`
+  * `mkdir unit2`
+  * `mkdir unit3`
+  * `mkdir unit4`
+1. Change directories into your `orientation` directory that you just created using the command `cd orientation`
+1. Create 2 new directories - one for labs and assignments and one for code-alongs
+  * `mkdir labs-and-assignments`
+  * `mkdir code-alongs`
+  
+This should be a pretty nice structure for us to use for the remainder of the class. 
+
 **Making a new file**
+
+You can make a new file using the `touch` command followed by the name of the new file you wish to create. Following the previous activity, we should now be in a folder called `orientation`. Let's continue the activity using the new touch command.
+
+1. Type `pwd` to see where you're at. Make sure that the path starts with your home folder (for me, that's `/Users/brandiwilliams` - for you, it will likely be `/Users/<YOUR NAME>`)
+  * My full path is `/Users/brandiwilliams/code/orientation`
+1. Change directories into the `code-alongs` folder by using the command `cd code-alongs`
+1. Create a new file called `test.txt` with the command `touch test.txt`
+1. Use the `ls` command - do you see your new file?
+1. Create a new file called `myfile.txt` with the command `touch myfile.txt`
+1. Create a new file called `history.txt` with the command `touch history.txt`
+1. Use the `ls` command - do you see all three files?
 
 **Removing a file**
 
+Perhaps we didn't actually mean to create that test.txt file. Oops! Luckily we can delete it with the `rm` command. Try running the following command: `rm test.txt`. Run `ls` again and it should now be gone!
+
 **Removing a folder**
+
+You may want to refrain from using this one. Doing a delete on the command line can't be undone, and it won't stop and ask you if you're sure like deleting a folder via your GUI normally would. The command for deleting a folder is also `rm` but it must be specified with the `-r` command to indicate recursive deletion. This is because deleting a folder deletes all files *and folders* inside it, and of course all files *and folders* inside of the subfolder... and so on!
+
+> GUI means "Graphical User Interface" - you know, like your mouse and pointing and clicking, etc
+
+Again, we'd highly recommend waiting until you're more comfortable with working in the terminal before using this one!
+
+### Writing and Routing
+
+**Echo! (echo!)**
+
+Try typing this command: `echo "hello world"`. It seems rather silly doesn't it? It just repeats back what you've written. What's the point of that? Hold that thought!
+
+**Writing and Appending to Files**
+
+TODO: > and >>
+
+**Here kitty kitty**
+
+No, not that type of cat! `cat` is a command that allows you to read the contents of a file! Let's take a look at the file "myfile.txt" using the command `cat myfile.txt`. We should see the content we just wrote to it with our echo, write, and append commands in the previous step.
+
+TODO: SCREENSHOT OF CAT
+
+**The history command**
+
+TODO
+
+**The pipe operator**
+
+TODO: History into history.txt
 
 ## Some Tips
 
@@ -108,9 +169,7 @@ TODO: IMAGE OF TAB COMPLETE
 
 So your computer remembers the commands you've used previously... we can use this to our advantage because as you'll notice throughout the course, you'll be using the same commands a lot! By using the up and down arrows, you can go back through your previous commands. 
 
-TODO: IMAGE OR GIF
-
-TODO: TRY IT OUT YOURSELF
+TODO: IMAGE
 
 Additionally, this becomes more useful because you can essentially filter your past commands by typing a part of it. For example, say you'd like to look at old `git` commands you've used. If you type the word `git` first and then proceed to use the up arrow you will be going through only your past commands that started with the word `git`. Neat huh?
 
