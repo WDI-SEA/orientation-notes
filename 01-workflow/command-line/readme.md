@@ -10,13 +10,21 @@ It's a little hard to describe, but it looks like a grasping motion. Imagine tha
 
 #### 2. The `⌘` + `SPACEBAR` keyboard shortcut
 
-This brings up a textbox that you can start typing the name of the program you're looking for. Try this out now. 
+This brings up a textbox that you can start typing the name of the program you're looking for. This is called "Spotlight Search" and it looks something like this:
+
+![](https://res.cloudinary.com/briezh/image/upload/v1583171079/Screen_Shot_2020-03-02_at_9.42.56_AM_tzo84y.png)
+
+Once you've started typing, you'll see anything that matches what you've typed. In my case, I'm looking for "Terminal" so I've typed "Ter" which has incidentally also matched anything about "Teriyaki" I've ever looked for:
+
+![](https://res.cloudinary.com/briezh/image/upload/v1583171079/Screen_Shot_2020-03-02_at_9.43.08_AM_yq9l0u.png)
+
+**Activity: Let's try this out together now**
 
 * Press and hold the command key followed by the spacebar
 * Start typing the word `terminal`. You probably only need two or three letters for it to narrow it down to the program you want.
 * Once the terminal program pops up, select it
 
-There we go! You're in the terminal now!
+There we go! You're in the terminal now! Keep it open, we'll be learning some commands you can type into the terminal next!
 
 ## Some Common Commands
 
