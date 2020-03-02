@@ -1,5 +1,17 @@
 # Terminal Tips and Tricks
 
+## What is a terminal vs a console vs a command line interface?
+
+These are all related concepts, and often for our purposes they're used interchangably! For our purposes, let's use the following definitions:
+
+**Terminal**: The program on your Mac, Linux, or Windows machine that you will open.
+**Console**: A general term for something that you might type commands into. Your terminal program is an example of a console, but your internet browser (Chrome or Firefox) or text editor (VS Code) also may have a console that you can type commands into as well.
+**Command Line Interface**: Any program that you might use that has specific commands you can type into a console. We've already seen in the prework that we can type commands that start with the word `git` in order to do different things with git. For example, `git push origin master` is one that we've used in order to "push" code from our local computers to our Github repositories.
+**Shell**: The shell is the command line interpretter. Essentially it's how your computer makes sense of whatever is being typed in your terminal. You can think of it as a program whose primary purpose is to run other programs. Some common shell flavors are `bash` (Bourne Again SHell) and `zsh` (Z-SHell). Bash is pretty pervasive, but for MacOS the Catalina update resulted in a shift from bash to [zsh as the terminal default](https://scriptingosx.com/2019/06/moving-to-zsh/). Zsh has some nice features bash doesn't, and we've always used zsh at GA Seattle anyway, so this is a convenient change!
+
+
+> If you'd like to dig further into the differences, take at look at this forum post on [AskUbuntu.com](https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line)!
+
 ## How do I even open this thing? I'm scared.
 
 On a Mac, you may be accustomed to opening up your `Applications` folder and hunting around for the program that you need. There are a couple even quicker ways you can open programs (including your terminal program). 
@@ -28,7 +40,11 @@ There we go! You're in the terminal now! Keep it open, we'll be learning some co
 
 ## Some Common Commands
 
-TODO: GET STUFF FROM REGULAR NOTES
+The first and most important things to learn about the terminal is how to see where you are and navigate around.
+
+**Where am I?**
+
+`pwd` is short for "Print Working Directory". It will show you the path from your root to where you are currently
 
 ## Some Tips
 
