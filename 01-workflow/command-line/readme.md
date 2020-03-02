@@ -42,7 +42,9 @@ Once you've started typing, you'll see anything that matches what you've typed. 
 
 There we go! You're in the terminal now! Keep it open, we'll be learning some commands you can type into the terminal next!
 
-## Some Common Commands
+## Useful Common Commands
+
+### Navigation
 
 The first and most important things to learn about the terminal is how to see where you are and navigate around.
 
@@ -56,7 +58,7 @@ The first and most important things to learn about the terminal is how to see wh
 
 You'll notice that the absolute path to where I am in my file system starts with a `/`. This is used to denote the "root" level of my local computer. 
 
-**List directory contents**
+**What's in here?**
 
 `ls` is the command to list your directory contents. Go ahead and try it out now. 
 
@@ -70,14 +72,29 @@ We can combine the two flags into a command `ls -la` as well.
 
 > Feel free to explore the [many other flags and options you can use with the ls command](https://www.techonthenet.com/unix/basic/ls.php), but just these two flags will get you by in the class just fine! 
 
-**Change directory**
+**Get me out of here**
 
-TODO: CD
+The `cd` command stands for "change directory". It's followed by the location you wish to change to, which must be the name of a directory. For example, in the above example while we were discussing the `ls` command, I was in a folder called `doughnut-shoppe` and I saw inside it a folder called `controllers`. If I wanted to change directory location to that controllers foldeer, I would use the command `cd controllers`. I can also specify a path. For example I could specify `cd controllers/subfolder` if I want to get to a folder called "subfolder" inside of the "controllers" folder.
+
+If I wish to back out of a folder, I can use the special designation of `..` (two dots) to reference a parent folder. If I am in the "controllers" folder and I wish to go back up to the "doughnut-shoppe" folder, I can use the command `cd ..`. I can also use this in a path, so for example, if I am currently in the "controllers" folder but I want to get to the "models" folder (which is a sibling folder also located inside the "doughnut-shoppe" folder), I can use the command `cd ../models`.
 
 A moment ago we referenced `/` to refer to your computer's root directory. On the other hand, the `~` symbol is used to denote the "home" directory, which is sort of like a user-specific root. For me, my home directory is `/Users/brandiwilliams`. Check it out.
 
 ![](https://res.cloudinary.com/briezh/image/upload/v1583173760/Screen_Shot_2020-03-02_at_10.27.23_AM_kk3aag.png)
 
+**Clear the screen**
+
+If you have too much information and clutter on your screen, you can use the `clear` command to get a fresh empty screen.
+
+### Creating/Removing Files and Folders
+
+**Making a new directory**
+
+**Making a new file**
+
+**Removing a file**
+
+**Removing a folder**
 
 ## Some Tips
 
