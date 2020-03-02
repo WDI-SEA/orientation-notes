@@ -64,7 +64,11 @@ The `ls` command, like many commands accepts arguments called "flags". These opt
 
 ![](https://res.cloudinary.com/briezh/image/upload/v1583174406/Screen_Shot_2020-03-02_at_10.39.19_AM_dk96gb.png)
 
-The `-a` flag will allow you to list normally hidden files that start with a `.`. We can combine the two flags into a command `ls -la` as well. Feel free to explore the [many other flags and options you can use with the ls command](https://www.techonthenet.com/unix/basic/ls.php), but just these two flags will get you by in the class just fine! 
+The `-a` flag will allow you to list normally hidden files that start with a `.` 
+
+We can combine the two flags into a command `ls -la` as well. 
+
+> Feel free to explore the [many other flags and options you can use with the ls command](https://www.techonthenet.com/unix/basic/ls.php), but just these two flags will get you by in the class just fine! 
 
 **Change directory**
 
