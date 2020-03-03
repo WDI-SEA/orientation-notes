@@ -12,3 +12,4 @@
 * [DOM Manipulation](03-dom/readme.md)
   * [HTML/CSS Review](03-dom/html-css-review.md)
   * [DOM Manipulation](03-dom/quiz2.md)
+* [Final Project](04-projects/final.md)
