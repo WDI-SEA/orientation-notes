@@ -199,7 +199,11 @@ You can string together commands using the `&&` operator. Try this out: `cd .. &
 
 Do you enjoy typing? Yeah neither do we. You can do a whole lot less of it on the terminal if you use tab completion. If you're typing a file name and let's say it's a really long name then you can type the first couple letters and press `TAB`. If there are no other matching filenames, voila, it's automatically filled in for you! If there is more than one match, you'll see them all and be able to tab through them!
 
-TODO: IMAGE OF TAB COMPLETE
+So, let's navigate back up to our `code` folder with `cd ..`. Now, let's say we want to get back to the `labs-and-assignments` folder inside of the `orientation` folder.
+
+* Type `cd o` and then press `TAB`. Because no other folders or files start with "o", orientation will be filled in for you!
+* Don't press enter yet. Instead, press `TAB` again. Notice how there are two possible choices so continuing to press tab will switch between `labs-and-assignments` and `code-alongs`. 
+* Once you've highlighted the `labs-and-assignments` folder, press enter.
 
 **History - using the up and down arrows**
 
