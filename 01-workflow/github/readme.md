@@ -125,8 +125,15 @@ If we want to know exactly where the address "origin" is referring to we can typ
 1. We need to give it to the mailman (or woman) with an address on it **(Push the changes to the remote address)**
 
 
-
 ### Pull Requests
+
+Okay, our push worked and our code is up on Github (refresh the page to make yourself believe it) - what else is there really to do?
+
+Well... you may notice that your own personal fork is updated, but the fork that's "upstream" from you (the one you originally forked from) remains unchanged.
+
+If you want to take a look at the repository that you forked from, you can see it linked right below the name of your repository.
+
+![](https://res.cloudinary.com/briezh/image/upload/v1583268825/Screen_Shot_2020-03-03_at_12.53.24_PM_q7utrq.png)
 
 ## Relevant XKCD
 
