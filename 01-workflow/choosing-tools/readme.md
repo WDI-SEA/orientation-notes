@@ -32,6 +32,20 @@ I hope this is self-explanatory but there's no reason to use these tools as a be
 
 ![](https://res.cloudinary.com/briezh/image/upload/v1476479006/tnons6mmhbmsxfnomqzw.jpg)
 
+### Helpful Settings and Plug-ins for Text Editors
+
+#### 1. Auto-Save (setting)
+
+You're beating your head against the wall. You just can't find your error and you have no explanation why the computer is acting the way it is. After someone else takes a look it becomes apparent *you just didn't save the file*!! So frustrating! Say goodbye to this problem for good by enabling your text editor to do you a solid and set the auto-save feature on.
+
+TODO: DIRECTIONS HOW TO GET TO SETTINGS AND TURN ON
+
+#### 2. Color highlighter
+
+Optional but cool.
+
+TODO: DIRECTIONS TO BRING UP PLUGINS LIST
+
 ## Bookmark Important Links
 
 Bookmark your class calendar for [SEI 30](https://sei30.herokuapp.com) so that you have access to your schedule outline.
