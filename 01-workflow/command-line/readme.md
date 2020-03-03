@@ -141,13 +141,37 @@ Try typing this command: `echo "hello world"`. It seems rather silly doesn't it?
 
 **Writing and Appending to Files**
 
-TODO: > and >>
+There are two operators that allow us to write to a file: `>` (over)write and `>>` append. try out these commands and then quiz yourself below:
+
+* `echo "Hello world line 1" > myfile.txt` (write)
+* `echo "Hello world line 2" >> myfile.txt` (append)
+* `echo "Hello world line 3" > myfile.txt` (write)
+* `echo "Hello new file" > newfile.txt` (write)
+
+**mini-quiz**
+
+<details>
+ <summary>What do you expect the contents of `myfile.txt` to be?</summary>
+ <br />
+ It turns out that we are completely overwriting the contents of myfile.txt with the command `echo "Hello world line 3" > myfile.txt`, so all we'd expect to be in there at the moment is "Hello world line 3".
+ <br />
+</details>
+
+<details>
+ <summary>Do you think `newfile.txt` was created or does a file have to exist in order for us to write to it?</summary>
+ <br /> 
+ In this case, luckily the file is auto-created if it doesn't exist already. Convenient! 
+ <br />
+</details>
+
 
 **Here kitty kitty**
 
 No, not that type of cat! `cat` is a command that allows you to read the contents of a file! Let's take a look at the file "myfile.txt" using the command `cat myfile.txt`. We should see the content we just wrote to it with our echo, write, and append commands in the previous step.
 
-TODO: SCREENSHOT OF CAT
+It also turns out, we can put multiple files together for viewing purposes with cat. Try this out: `cat myfile.txt newfile.txt` - you should see the contents of both files!
+
+![](https://res.cloudinary.com/briezh/image/upload/v1583193727/Screen_Shot_2020-03-02_at_4.01.38_PM_p0ecxq.png)
 
 **The history command**
 
@@ -156,6 +180,10 @@ TODO
 **The pipe operator**
 
 TODO: History into history.txt
+
+**Anding**
+
+TODO: `cd .. && ls -l`
 
 ## Some Tips
 
