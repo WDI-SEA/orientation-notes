@@ -6,3 +6,4 @@
   * [Keyboard Shortcuts](01-workflow/keyboard-shortcuts/readme.md)
   * [Terminal Tips and Tricks](01-workflow/command-line/readme.md)
   * [Machine Setup](01-workflow/machine-setup/readme.md)
+  * [Github Workflow](01-workflow/github/readme.md)
