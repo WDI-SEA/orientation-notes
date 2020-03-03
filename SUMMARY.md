@@ -8,4 +8,6 @@
   * [Machine Setup](01-workflow/machine-setup/readme.md)
   * [Github Workflow](01-workflow/github/readme.md)
 * [JavaScript Language Basics](02-javascript/readme.md)
+  * [JavaScript Quiz 1](02-javascript/quiz1.md)
 * [DOM Manipulation](03-dom/readme.md)
+  * [DOM Manipulation](03-dom/quiz2.md)
