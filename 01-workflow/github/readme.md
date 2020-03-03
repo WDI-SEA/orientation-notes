@@ -52,7 +52,7 @@ Once you have a "fork" of the repository on your own Github account, you want to
 
 ![](http://res.cloudinary.com/briezh/image/upload/v1531169741/Screen_Shot_2018-07-09_at_1.55.16_PM_kb0fuq.png)
 
-Once you have this link copied, go to your terminal and type the following command 
+Once you have this link copied, you can go to your terminal and type the following command in order to start the clone process: 
 
 ```bash
 git clone THE_LINK_YOU_COPIED
