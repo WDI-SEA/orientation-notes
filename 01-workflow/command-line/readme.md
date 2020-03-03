@@ -210,3 +210,7 @@ So, let's navigate back up to our `code` folder with `cd ..`. Now, let's say we 
 So we saw above that your computer remembers the commands you've used previously... we can use this to our advantage because as you'll notice throughout the course, you'll be using the same commands a lot! By using the up and down arrows, you can go back through your previous commands one at a time! 
 
 Additionally, this becomes more useful because you can essentially filter your past commands by typing a part of it. For example, say you'd like to look at old `git` commands you've used. If you type the word `git` first and then proceed to use the up arrow you will be going through only your past commands that started with the word `git`. Neat huh?
+
+## Resource - Cheatsheet
+
+Consider bookmarking this Mac [Terminal Commands Cheatsheet](https://github.com/0nn0/terminal-mac-cheatsheet) so you can look up commands and shortcuts later.
