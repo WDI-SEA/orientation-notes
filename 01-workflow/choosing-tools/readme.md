@@ -18,8 +18,12 @@ TODO
 
 ## Bookmark Important Links
 
-TODO: Class calendar
+Bookmark your class calendar for [SEI 30](https://sei30.herokuapp.com) so that you have access to your schedule outline.
 
 ## Downloading Helpful Tools
 
-TODO: Insomnia, Postico, Robo 3T
+The following tools aren't strictly necessary, but they are user interfaces to view your data in a really nice, straight-forward way. We use and recommend the following if you don't already have your own alternatives in place:
+
+* [Insomnia](https://insomnia.rest/download/) allows you to test your APIs. It's a lightweight alternative to Postman. Works on Mac, Linux, and Windows.
+* [Postico](https://eggerapps.at/postico/) is a GUI that allows you to access a PostgreSQL database. Only for Mac. Use PGAdmin for Linux/Windows alternative.
+* [Robo 3T](https://robomongo.org/) is a GUI that allows you to access a Mongo database (formerly known as robomongo). Works on Mac, Linux, and Windows.
