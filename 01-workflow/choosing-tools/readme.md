@@ -14,7 +14,21 @@ Once you've signed up and logged into the Slack app, let's make sure you're in t
 
 ## Choosing a Text Editor
 
-TODO
+You'll develop your own opinions on this - every software developer does! However, let's start out with a couple baseline rules.
+
+#### 1. Pick at least one of the following three options for your default text editor
+
+**VS Code**: Short for "Visual Studio Code". This one is probably the most popular among students. There are many plug-ins, the ability to do live code-shares, and git integration. If you don't otherwise have an opinion or know which one to go with, just pick this one.
+
+**Sublime Text**: This one is the second most popular among students and offers many of the same features as VS Code, however the free version has an annoying pop-up that comes up every so many saves.
+
+**ATOM**: This one is nice too, and again offers a lot of the same types of plug-ins as the other two.
+
+You are welcome to adopt more than one of these, or even all three. Your instructor likely has all three editors installed.
+
+#### 2. Refrain from using a command-line text editor such as vim or nano as an editor
+
+I hope this is self-explanatory but there's no reason to use these tools as a beginner as they are intimidating and a little hard to use, and there's honestly no need in this class to show off. We're all here to learn.
 
 ## Bookmark Important Links
 
