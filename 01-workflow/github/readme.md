@@ -77,7 +77,7 @@ We then trust the mail carrier to get the package to our granny with the address
 
 ### Add (Staging Changes)
 
-In our metaphor, our new code changes are like the gift we're giving to granny. It's the thing we want to send. Continuing that metaphor the `git add` command is like placing that gift in the box. This is sometimes referred to as "staging changes". 
+In our metaphor, our new code changes are like the gift we're giving to granny. It's the thing we want to send. Continuing that metaphor the `git add` command is like placing that gift in the box. This is sometimes referred to as "staging changes". Revisiting the steps to mail granny's gifts, here's what we've got: 
 
 1. We need a gift **(Our new code)**
 1. We need to put the gift inside a box **(Staging changes)**
@@ -88,13 +88,20 @@ You may see a couple variations of the add command:
 
 `git add -A` (Add all changes from files in this repository)
 
-`git add .` (Add all changes from the current folder all downward)
+`git add .` (Add all changes from the current folder and downward)
 
 > Fun fact: from the root (top) folder of your project, these commands do exactly the same thing.
 
 ### Commit
 
-TODO
+Making a commit is taking all the code changes and bundling them together. A commit is provided with a message describing what's included in that commit. For example, a commit message might say something like "Added dropdown list to customer profile" or something which describes in plain English the purpose of the code changes. 
+
+1. We need a gift **(Our new code)**
+1. We need to put the gift inside a box **(Staging changes)**
+1. We need to tape up the box **(Making a commit)**
+1. We need to give it to the mailman (or woman) with an address on it
+
+> Note: At this point the code changes are still on your computer. (The box is taped up and ready to ship, but you're still holding it)
 
 ### Push
 
