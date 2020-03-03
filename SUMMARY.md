@@ -7,3 +7,5 @@
   * [Terminal Tips and Tricks](01-workflow/command-line/readme.md)
   * [Machine Setup](01-workflow/machine-setup/readme.md)
   * [Github Workflow](01-workflow/github/readme.md)
+* [JavaScript Language Basics](02-javascript/readme.md)
+* [DOM Manipulation](03-dom/readme.md)
