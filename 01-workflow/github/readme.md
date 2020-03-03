@@ -36,7 +36,7 @@ Remember, *git* and *github* are two different things! Git is a version control 
 
 ## What git commands do I need to know about?
 
-Let's cover a few basic things that Git and Github can do that are useful to know about.
+Let's cover a few basic things that Git and Github can do that are useful to know about. Let's try to cover these in the order that you might encounter them in a regular development process.
 
 ### Forking
 
@@ -45,6 +45,8 @@ What is a fork? When you visit a repository on Github, you'll see a button calle
 ![](https://res.cloudinary.com/briezh/image/upload/v1583265934/Screen_Shot_2020-03-03_at_12.05.06_PM_ro1prf.png)
 
 Forking is something you'll need to be logged in to Github to do. When you fork someone else's repository, a complete copy of that repository is made on your own account. This may feel a little weird at first, but in fact, openness, sharing, and cooperation is highly respected within the software development community.
+
+> At GA we often have you make forks of starter code for homeworks!
 
 ### Clone
 
@@ -60,9 +62,35 @@ git clone THE_LINK_YOU_COPIED
 
 > Tip: Don't clone into a location that is already being tracked by git
 
+### Getting the Code Back to the Internet
+
+So let's say you made some beautiful new code and now you're ready to let that code live it's best life out in the wilds of the internet. How do we get that code from our computer back up to Github?
+
+Let's step back for a second. If you want to send your granny a birthday present, what kind of process do you need to go through?
+
+1. We need a gift
+1. We need to put the gift inside a box
+1. We need to tape up the box
+1. We need to give it to the mailman (or woman) with an address on it
+
+We then trust the mail carrier to get the package to our granny with the address and instructions we've given. Let's use this metaphor of sending a physical package to describe the process of sending our code to Github.
+
 ### Add (Staging Changes)
 
-TODO
+In our metaphor, our new code changes are like the gift we're giving to granny. It's the thing we want to send. Continuing that metaphor the `git add` command is like placing that gift in the box. This is sometimes referred to as "staging changes". 
+
+1. We need a gift **(Our new code)**
+1. We need to put the gift inside a box **(Staging changes)**
+1. We need to tape up the box
+1. We need to give it to the mailman (or woman) with an address on it
+
+You may see a couple variations of the add command:
+
+`git add -A` (Add all changes from files in this repository)
+
+`git add .` (Add all changes from the current folder all downward)
+
+> Fun fact: from the root (top) folder of your project, these commands do exactly the same thing.
 
 ### Commit
 
