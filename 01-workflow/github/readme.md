@@ -103,9 +103,28 @@ Making a commit is taking all the code changes and bundling them together. A com
 
 > Note: At this point the code changes are still on your computer. (The box is taped up and ready to ship, but you're still holding it)
 
+Commit messages can be added with a `-m` flag like this:
+
+`git commit -m "Added dropdown list to customer profile"`
+
 ### Push
 
-TODO
+Alright - we're finally at the point where we can hand off our package to the mail carrier. The git push command is specified with a couple arguments, one of which is the "address" it's being sent to. You may have seen a command that looks like this:
+
+`git push origin master`
+
+Origin refers to the location. This is our address. Origin is the address that refers to github by convention, but it can be renamed and there are other addresses besides Github we may want to push our code out to.
+
+If we want to know exactly where the address "origin" is referring to we can type the following command: `git remote -v`. This basically let's us take a look at our address book.
+
+![](https://res.cloudinary.com/briezh/image/upload/v1583268611/Screen_Shot_2020-03-03_at_12.49.50_PM_onyivq.png)
+
+1. We need a gift **(Our new code)**
+1. We need to put the gift inside a box **(Staging changes)**
+1. We need to tape up the box **(Making a commit)**
+1. We need to give it to the mailman (or woman) with an address on it **(Push the changes to the remote address)**
+
+
 
 ### Pull Requests
 
