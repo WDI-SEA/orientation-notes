@@ -175,15 +175,23 @@ It also turns out, we can put multiple files together for viewing purposes with 
 
 **The history command**
 
-TODO
+`history` is a command that will tell you the previous commands that you've typed before. Try it!
+
+![](https://res.cloudinary.com/briezh/image/upload/v1583194264/Screen_Shot_2020-03-02_at_4.10.36_PM_kskfaz.png)
 
 **The pipe operator**
 
-TODO: History into history.txt
+Did you notice the `|` operator in the screenshot above? This is called a "pipe". Think of a pipe as taking data from one place to another... just like pipes in Mario games take Mario from one place to another. Whee!
+
+![](https://res.cloudinary.com/briezh/image/upload/v1583194914/mario_raut7v.jpg)
+
+So, essentially in the command `history | tail`, we're taking the data from the `history` command, which is a long list of commands that I've run in the past, and feeding it into the `tail` command. `tail` takes the last 10 lines fed into it and spits it back out. Thus, I can view only the last 10 lines instead of the whole thing.
+
+> Note: `head` does the opposite of `tail` - it takes from the beginning!
 
 **Anding**
 
-TODO: `cd .. && ls -l`
+You can string together commands using the `&&` operator. Try this out: `cd .. && ls -l`
 
 ## Some Tips
 
@@ -193,14 +201,8 @@ Do you enjoy typing? Yeah neither do we. You can do a whole lot less of it on th
 
 TODO: IMAGE OF TAB COMPLETE
 
-**History**
+**History - using the up and down arrows**
 
-So your computer remembers the commands you've used previously... we can use this to our advantage because as you'll notice throughout the course, you'll be using the same commands a lot! By using the up and down arrows, you can go back through your previous commands. 
-
-TODO: IMAGE
+So we saw above that your computer remembers the commands you've used previously... we can use this to our advantage because as you'll notice throughout the course, you'll be using the same commands a lot! By using the up and down arrows, you can go back through your previous commands one at a time! 
 
 Additionally, this becomes more useful because you can essentially filter your past commands by typing a part of it. For example, say you'd like to look at old `git` commands you've used. If you type the word `git` first and then proceed to use the up arrow you will be going through only your past commands that started with the word `git`. Neat huh?
-
-## Setting Up Your File Structure for Success
-
-TODO: EXPLAIN IMPORTANCE OF ORGANIZATION
