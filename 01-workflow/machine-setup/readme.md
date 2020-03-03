@@ -8,4 +8,4 @@ TODO: code and subl shortcuts
 
 ## Some Installations
 
-TODO: homebrew
+TODO: homebrew, node, xcode maybe
