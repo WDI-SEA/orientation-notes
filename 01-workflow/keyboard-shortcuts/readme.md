@@ -22,6 +22,8 @@ Go through the following tables and try out each shortcut for yourself.
 | `⌘ + D` | Select the next text that matches the highlighted text |
 
 
-## Keyboard Shortcuts - Linux
+## Keyboard Shortcuts - Cheatsheet
+
+Mac: [Keyboard Shortcut and Terminal Commands Cheatsheet](https://github.com/0nn0/terminal-mac-cheatsheet)
 
 TODO: LINUX CHEATSHEET
