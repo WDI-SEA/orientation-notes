@@ -113,7 +113,9 @@ Alright - we're finally at the point where we can hand off our package to the ma
 
 `git push origin master`
 
-Origin refers to the location. This is our address. Origin is the address that refers to github by convention, but it can be renamed and there are other addresses besides Github we may want to push our code out to.
+In the above command, *master* refers to the branch. You don't need to know anything about branches at the moment other than the fact that "master" is the default and that for the first half of this course, that's all that you're going to be using.
+
+*Origin* refers to the location. This is our address. Origin is the address that refers to github by convention, but it can be renamed and there are other addresses besides Github we may want to push our code out to.
 
 If we want to know exactly where the address "origin" is referring to we can type the following command: `git remote -v`. This basically let's us take a look at our address book.
 
@@ -124,6 +126,7 @@ If we want to know exactly where the address "origin" is referring to we can typ
 1. We need to tape up the box **(Making a commit)**
 1. We need to give it to the mailman (or woman) with an address on it **(Push the changes to the remote address)**
 
+DONE! YES!
 
 ### Pull Requests
 
@@ -131,9 +134,11 @@ Okay, our push worked and our code is up on Github (refresh the page to make you
 
 Well... you may notice that your own personal fork is updated, but the fork that's "upstream" from you (the one you originally forked from) remains unchanged.
 
-If you want to take a look at the repository that you forked from, you can see it linked right below the name of your repository.
+If you want to take a look at the repository that you forked from, you can see it linked right below the name of your repository. For example, here is a repository that I have forked from someone else:
 
 ![](https://res.cloudinary.com/briezh/image/upload/v1583268825/Screen_Shot_2020-03-03_at_12.53.24_PM_q7utrq.png)
+
+So we want to see our new shiny code updated on the original creator's repository. How do we alert this person that we want them to adopt our new code? Well this is where pull requests come in. There is a button right above your code that says "New Pull Request" that will allow you to make a *request* to the original person you forked from so that they will *pull* in your new changes.
 
 ## Relevant XKCD
 
