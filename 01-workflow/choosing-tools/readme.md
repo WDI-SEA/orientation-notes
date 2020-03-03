@@ -28,7 +28,9 @@ You are welcome to adopt more than one of these, or even all three. Your instruc
 
 #### 2. Refrain from using a command-line text editor such as vim or nano as an editor
 
-I hope this is self-explanatory but there's no reason to use these tools as a beginner as they are intimidating and a little hard to use, and there's honestly no need in this class to show off. We're all here to learn.
+I hope this is self-explanatory but there's no reason to use these tools as a beginner as they are intimidating and a little hard to use, and there's honestly no need in this class to show off. We're all here to learn. In other words, don't be this guy:
+
+![](https://res.cloudinary.com/briezh/image/upload/v1476479006/tnons6mmhbmsxfnomqzw.jpg)
 
 ## Bookmark Important Links
 
