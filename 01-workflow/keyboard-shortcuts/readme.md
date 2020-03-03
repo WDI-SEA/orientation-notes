@@ -24,6 +24,6 @@ Go through the following tables and try out each shortcut for yourself.
 
 ## Keyboard Shortcuts - Cheatsheet
 
-Mac: [Keyboard Shortcut and Terminal Commands Cheatsheet](https://github.com/0nn0/terminal-mac-cheatsheet)
+TODO Mac: [Keyboard Shortcuts Cheatsheet]()
 
 TODO: LINUX CHEATSHEET
