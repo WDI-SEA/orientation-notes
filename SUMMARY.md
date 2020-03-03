@@ -1,5 +1,6 @@
 * [Introduction](README.md)
 * [Schedule](00-intro/schedule.md)
+* [Front Lines Pro-Tips](00-intro/front-lines/readme.md)
 * [Development Workflow](01-workflow/readme.md)
   * [Choosing Your Tools](01-workflow/choosing-tools/readme.md)
   * [Keyboard Shortcuts](01-workflow/keyboard-shortcuts/readme.md)
