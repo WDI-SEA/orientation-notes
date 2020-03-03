@@ -5,12 +5,19 @@
 Perhaps you've had a class in school with a final project or essay. As you go through numerous drafts, and try out different strategies, you want to be free to try new things without the fear of losing your old writing just in case you need to go back or rework back in some stuff at a later time. Maybe your desktop looked like this:
 
 **My-Essay.doc**
+
 **My-Essay2.doc**
+
 **My-Essay-New.doc**
+
 **My-Essay-New2.doc**
+
 **My-Essay-final.doc**
+
 **My-Essay-final-version.doc**
+
 **My-Essay-actual-final.doc**
+
 **My-Essay-REAL-FINAL-VERSION.doc**
 
 Don't tell us you can't relate! But wouldn't it be nice if we just had a program to handle any history or previous versions for us so we didn't have to keep a dozen copies of the same file? This is where version control systems come in. 
@@ -41,7 +48,17 @@ Forking is something you'll need to be logged in to Github to do. When you fork 
 
 ### Clone
 
-TODO
+Once you have a "fork" of the repository on your own Github account, you want to clone the code onto your local machine so that you can open it up your text editor and work on it. During cloning all of the code in your Github repository (and all of the commits) will be copied onto your computer. You can initiate a clone by copying the clone link. This is a green button on the right of the page. Clicking the copy icon will automatically copy it to your clipboard, or you can highlight the text and press `Cmd + C`.
+
+![](http://res.cloudinary.com/briezh/image/upload/v1531169741/Screen_Shot_2018-07-09_at_1.55.16_PM_kb0fuq.png)
+
+Once you have this link copied, go to your terminal and type the following command 
+
+```bash
+git clone THE_LINK_YOU_COPIED
+``` 
+
+> Tip: Don't clone into a location that is already being tracked by git
 
 ### Add (Staging Changes)
 
