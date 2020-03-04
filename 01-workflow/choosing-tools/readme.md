@@ -42,7 +42,11 @@ TODO: DIRECTIONS HOW TO GET TO SETTINGS AND TURN ON
 
 #### 2. Color highlighter
 
-Optional but cool.
+Optional but cool. This will highlight the CSS color whenever you use a hex-code or named color in your CSS files.
+
+1. Open up VS Code or Sublime Text
+1. Press `⇧⌘P` (SHIFT + COMMAND + The letter P)
+1. For Sublime Text, type "Install Package"
 
 TODO: DIRECTIONS TO BRING UP PLUGINS LIST
 
