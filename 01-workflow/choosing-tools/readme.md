@@ -61,14 +61,20 @@ To turn on auto-save in Sublime Text:
 
 Optional but cool. This will highlight the CSS color whenever you use a hex-code or named color in your CSS files.
 
-1. Open up VS Code or Sublime Text
+**Directions for Sublime Text**
+
+1. Open Sublime Text
 1. Press `⇧⌘P` (SHIFT + COMMAND + The letter P)
 1. For Sublime Text, type "Install Package"
 1. Select the option "Package Control: Install Package"
 
 ![](https://res.cloudinary.com/briezh/image/upload/v1583364360/Screen_Shot_2020-03-04_at_3.25.31_PM_oer4p7.png)
 
-1. Start typing
+Last, start typing "[Color Highlighter](https://packagecontrol.io/packages/Color%20Highlighter)". This is the package you want for Sublime Text.
+
+**Directions for VS Code**
+
+1. Open up VS Code
 
 #### 3. Pick your favorite text editor and dig in
 
