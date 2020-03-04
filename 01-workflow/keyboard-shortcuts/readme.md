@@ -23,9 +23,10 @@ Go through the following tables and try out each shortcut for yourself.
 | `⌘ + L` | Select a line |
 | `⌘ + S` | Save the file you're working on |
 | `⌘ + D` | Select the next text that matches the highlighted text |
+| `⌘ + CTRL + UP/DOWN` | Swap highlighted lines up/down |
 | `ALT + CLICK` | Create a new cursor |
 
 
 ## Keyboard Shortcuts - Cheatsheet
 
-TODO Mac: [Keyboard Shortcuts Cheatsheet]()
+Mac: [Keyboard Shortcuts Cheatsheet](https://support.apple.com/en-us/HT201236)
