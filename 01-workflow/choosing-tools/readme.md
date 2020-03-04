@@ -38,7 +38,17 @@ I hope this is self-explanatory but there's no reason to use these tools as a be
 
 You're beating your head against the wall. You just can't find your error and you have no explanation why the computer is acting the way it is. After someone else takes a look it becomes apparent *you just didn't save the file*!! So frustrating! Say goodbye to this problem for good by enabling your text editor to do you a solid and set the auto-save feature on.
 
-TODO: DIRECTIONS HOW TO GET TO SETTINGS AND TURN ON
+**VS Code**
+
+The easiest way to turn on auto-save in VS Code is simply to go up to File -> Auto-Save (see screenshot below). 
+
+![](https://res.cloudinary.com/briezh/image/upload/v1583363604/Screen_Shot_2020-03-04_at_3.12.50_PM_vdzxjs.png)
+
+There are additional auto-save settings you can configure listed on [VS Code's website](https://code.visualstudio.com/docs/editor/codebasics#_save-auto-save), but simply turning on auto-save will do the trick for most of us.
+
+**Sublime Text**
+
+To turn on auto-save in Sublime Text, 
 
 #### 2. Color highlighter
 
@@ -49,6 +59,10 @@ Optional but cool. This will highlight the CSS color whenever you use a hex-code
 1. For Sublime Text, type "Install Package"
 
 TODO: DIRECTIONS TO BRING UP PLUGINS LIST
+
+#### 3. Pick your favorite text editor and dig in
+
+Look up some tips and tricks for [VS Code](https://code.visualstudio.com/docs/getstarted/tips-and-tricks), [Sublime Text](), or [ATOM]().
 
 ## Bookmark Important Links
 
