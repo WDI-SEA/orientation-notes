@@ -48,7 +48,14 @@ There are additional auto-save settings you can configure listed on [VS Code's w
 
 **Sublime Text**
 
-To turn on auto-save in Sublime Text, 
+To turn on auto-save in Sublime Text:
+
+1. Go up to the bar at the top and click "Sublime Text"
+1. Hover over "Preferences"
+1. Under the menu that comes up from the previous step, click "Settings"
+1. Change the setting "save_on_focus_lost" from false to true
+
+![](https://res.cloudinary.com/briezh/image/upload/v1583364231/Screen_Shot_2020-03-04_at_3.23.26_PM_oevxhg.png)
 
 #### 2. Color highlighter
 
