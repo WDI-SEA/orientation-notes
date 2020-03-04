@@ -92,7 +92,7 @@ Look up some tips and tricks for [VS Code](https://code.visualstudio.com/docs/ge
 
 ## Bookmark Important Links
 
-Bookmark your class calendar for [SEI 30](https://sei30.herokuapp.com) so that you have access to your schedule outline.
+Bookmark your class calendar for [SEI 30](https://sei30.herokuapp.com) so that you have access to your schedule outline, and bookmark your [class notes](https://gawdiseattle.gitbook.io/wdi/) so you have access to any reading assigned in class.
 
 ## Downloading Helpful Tools
 
