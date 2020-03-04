@@ -75,6 +75,14 @@ Last, start typing "[Color Highlighter](https://packagecontrol.io/packages/Color
 **Directions for VS Code**
 
 1. Open up VS Code
+1. Press `⇧⌘P` (SHIFT + COMMAND + The letter P)
+1. Type "Extensions: Install Extensions" and then select that option (see screenshot below)
+1. Type "Color" and "Color Highlight" should be the first option
+1. Press the "Install" button next to the Color Highlight package (see screenshot below)
+
+![](https://res.cloudinary.com/briezh/image/upload/v1583364832/Screen_Shot_2020-03-04_at_3.32.32_PM_lqvpnc.png)
+
+![](https://res.cloudinary.com/briezh/image/upload/v1583364832/Screen_Shot_2020-03-04_at_3.32.57_PM_bi8dyf.png)
 
 #### 3. Pick your favorite text editor and dig in
 
