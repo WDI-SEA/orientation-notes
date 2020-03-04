@@ -19,6 +19,8 @@ Go through the following tables and try out each shortcut for yourself.
 
 | Combo | What it does |
 | -------- | ----------------------------------- |
+| `⌘ + A` | Select all content |
+| `⌘ + L` | Select a line |
 | `⌘ + S` | Save the file you're working on |
 | `⌘ + D` | Select the next text that matches the highlighted text |
 | `ALT + CLICK` | Create a new cursor |
@@ -27,5 +29,3 @@ Go through the following tables and try out each shortcut for yourself.
 ## Keyboard Shortcuts - Cheatsheet
 
 TODO Mac: [Keyboard Shortcuts Cheatsheet]()
-
-TODO: LINUX CHEATSHEET
