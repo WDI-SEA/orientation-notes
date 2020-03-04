@@ -18,13 +18,15 @@ Go through the following tables and try out each shortcut for yourself.
 **In Sublime Text and VS Code**
 
 | Combo | What it does |
-| -------- | ----------------------------------- |
+| -------------------- | ------------------------------------------- |
+| `⌘ + T` | Opens a new unsaved file in your editor |
 | `⌘ + A` | Select all content |
 | `⌘ + L` | Select a line |
 | `⌘ + S` | Save the file you're working on |
 | `⌘ + D` | Select the next text that matches the highlighted text |
 | `⌘ + CTRL + UP/DOWN` | Swap highlighted lines up/down |
 | `ALT + CLICK` | Create a new cursor |
+| `⌘ + CTRL + SPACE` | Search for an emoji |
 
 
 ## Keyboard Shortcuts - Cheatsheet
