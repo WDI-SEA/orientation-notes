@@ -43,3 +43,10 @@ That said, here are some tips:
 * Try to remember to wipe down the whiteboards and tables in the classroom at the end of the day (it's not the biggest deal in the world if we're in a hurry and forget one day, but let's try to be kind!)
 * If you borrow something from front lines, it's just good form to return it
 * If there's a class going on in the room across from the front desk, please be mindful of that
+* Label your belongings like waterbottles and chargers. This makes it much easier to return these items to you if you leave them on campus accidentally!
+
+## Activity: Let's get labelled!
+
+We have a label maker on campus, and because we know belongings will inevitably left on campus now and then, let's make sure that our stuff can make it back to us by putting our names on them.
+
+> Tip: If you get a new waterbottle or something else you want to label later in the class, simply ask front lines to print you a new label!
