@@ -32,6 +32,10 @@ Yes, with some restrictions.
 
 Additionally, you should be aware that these rooms are not soundproof. Again, for those in the back, **NOT SOUNDPROOF!!**
 
+#### Is there a lost and found?
+
+Yes! It's at the front desk. Please ask a front lines associate, instructor, or another GA staff member if you need to check the lost and found.
+
 #### What does front lines want me to do?
 
 It all boils down to being a responsible adult and respecting the fact that we are all in a shared space. Did you know that your instructors don't actually have desks? This truly is a shared space for all of us!
