@@ -84,9 +84,11 @@ Last, start typing "[Color Highlighter](https://packagecontrol.io/packages/Color
 
 ![](https://res.cloudinary.com/briezh/image/upload/v1583364832/Screen_Shot_2020-03-04_at_3.32.57_PM_bi8dyf.png)
 
+> TIP: Remember this process for installing packages in your favorite text editor - you will be using it any time you want to install ANY package!
+
 #### 3. Pick your favorite text editor and dig in
 
-Look up some tips and tricks for [VS Code](https://code.visualstudio.com/docs/getstarted/tips-and-tricks), [Sublime Text](), or [ATOM]().
+Look up some tips and tricks for [VS Code](https://code.visualstudio.com/docs/getstarted/tips-and-tricks), [Sublime Text](https://www.hongkiat.com/blog/sublime-text-tips/), or [ATOM]().
 
 ## Bookmark Important Links
 
