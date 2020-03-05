@@ -8,7 +8,7 @@ Let's do a few installations from the command line.
 
 First, for Mac users, we're going to be using an installer called "Homebrew". This will allow us to use the "brew" command for any future installations.
 
-> If you're on Linux, you'll be using the "apt-get" command instead of "brew". You don't have to do anything to set it up. Lucky you!
+> If you're on Linux, you'll be using the "apt-get" command instead of "brew". You don't have to do anything to set it up. Lucky you! While you wait feel free to either skip down to installing Node or gloat smugly, whatever your jam is.
 
 Mac users, open up your terminal and run the following command: (please copy and paste it!)
 
@@ -16,9 +16,7 @@ Mac users, open up your terminal and run the following command: (please copy and
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-### Node
-
-TODO
+> Note: You may be prompted to install xcode. Agree to this, but know that it might take a couple minutes, especially on older Macs.
 
 ### Xcode (Mac only)
 
@@ -29,6 +27,10 @@ xcode-select --install
 ```
 
 > Note: This one may take a few moments. It's an ideal time to go grab a refill of water or coffee.
+
+### Node
+
+TODO
 
 ### Python
 
