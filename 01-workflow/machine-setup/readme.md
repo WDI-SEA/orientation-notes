@@ -34,11 +34,19 @@ TODO
 
 ### Python
 
-TODO
+Your Mac comes with Python 2.7 already installed (boo!), but we want the new and improved Python 3. Try installing it with Homebrew:
+
+```sh
+brew install python3
+```
+
+Some people may get some permissions issues depending on the settings on their computer. If this is you, follow the [installation directions here in our class notes](https://gawdiseattle.gitbook.io/wdi/00-config-deployment/installfest/osx#installing-python-3).
 
 ### PostgreSQL
 
-TODO
+Download and install from [https://postgresapp.com/](postgresapp.com).
+
+Follow steps 1, 2, and 3 halfway down the page under "Installing Postgres.app".
 
 ### MongoDB
 
