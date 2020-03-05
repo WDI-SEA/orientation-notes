@@ -88,7 +88,7 @@ Last, start typing "[Color Highlighter](https://packagecontrol.io/packages/Color
 
 #### 3. Pick your favorite text editor and dig in
 
-Look up some tips and tricks for [VS Code](https://code.visualstudio.com/docs/getstarted/tips-and-tricks), [Sublime Text](https://www.hongkiat.com/blog/sublime-text-tips/), or [ATOM]().
+Look up some tips and tricks for [VS Code](https://code.visualstudio.com/docs/getstarted/tips-and-tricks), [Sublime Text](https://www.hongkiat.com/blog/sublime-text-tips/), or [Atom](https://www.sitepoint.com/12-favorite-atom-tips-and-shortcuts-to-improve-your-workflow/).
 
 ## Bookmark Important Links
 
