@@ -11,5 +11,7 @@
   * [JavaScript Quiz 1](02-javascript/quiz1.md)
 * [DOM Manipulation](03-dom/readme.md)
   * [HTML/CSS Review](03-dom/html-css-review.md)
-  * [DOM Manipulation](03-dom/quiz2.md)
+  * [DOM Manipulation](03-dom/manipulation.md)
+  * [DOM Quiz](03-dom/quiz2.md)
+  * [DOM Events](03-dom/events.md)
 * [Final Project](04-projects/final.md)
