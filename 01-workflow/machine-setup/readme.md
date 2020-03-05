@@ -42,9 +42,7 @@ TODO
 
 ### MongoDB
 
-T## Installing MongoDB (Updated 11/2019)
-
-**Notes:** The name of the free version of MongoDB has changed to `mongodb-community` as of November 2019. Also, the Catalina version of MacOS (version 10.15) disallows folders being created at the root of the file system so you must create your MongoDB data folder inside your home folder
+**Notes:** The name of the free version of MongoDB has changed to `mongodb-community` as of November 2019. Also, the Catalina version of MacOS (version 10.15) disallows folders being created at the root of the file system so you must create your MongoDB data folder inside your home folder.
 
 ```sh
 #Install MongoDB
