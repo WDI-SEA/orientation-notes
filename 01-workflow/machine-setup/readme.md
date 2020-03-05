@@ -30,7 +30,22 @@ xcode-select --install
 
 ### Node
 
-TODO
+To install Node with Homebrew run the following command:
+
+```sh
+brew install node
+```
+
+Verify the installation afterwards by running
+
+```
+node -v
+npm -v
+```
+
+The above should display without any errors.
+
+> Note: "npm" stands for "Node Package Manager"
 
 ### Python
 
