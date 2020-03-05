@@ -12,7 +12,7 @@ First, for Mac users, we're going to be using an installer called "Homebrew". Th
 
 Mac users, open up your terminal and run the following command: (please copy and paste it!)
 
-```bash
+```sh
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
@@ -22,7 +22,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 You may have already been prompted to install this when installing homebrew. If not, go ahead and run it now:
 
-```bash
+```sh
 xcode-select --install
 ```
 
@@ -42,7 +42,48 @@ TODO
 
 ### MongoDB
 
-TODO
+T## Installing MongoDB (Updated 11/2019)
+
+**Notes:** The name of the free version of MongoDB has changed to `mongodb-community` as of November 2019. Also, the Catalina version of MacOS (version 10.15) disallows folders being created at the root of the file system so you must create your MongoDB data folder inside your home folder
+
+```sh
+#Install MongoDB
+brew install mongodb-community
+
+#make data directory
+sudo mkdir -p ~/mongodb-data
+```
+
+After creating the data directory in your home folder, it should be marked with your correct ownership permissions but if you find that it is owned by root instead, you can change it to be owned by you with the following commands:
+
+```sh
+# Get your user name
+whoami
+
+# set data directory permissions (replacing USERNAME with the result from whoami above)
+sudo chown -R USERNAME:wheel ~/mongodb-data
+```
+
+Finally, to tell MongoDB to start using the data directory that you just created, you must start it with the following command:
+
+```sh
+mongod --dbpath ~/mongodb-data
+```
+
+To make a shortcut for this command, open your ~/.zshrc (or ~/.bashrc if not using ZSH) and add this line to the bottom:
+
+```sh
+alias mongod="mongod --dbpath ~/mongodb-data"
+```
+
+#### Testing your MongoDB server
+
+```sh
+# Start the MongoDB server
+mongod
+```
+
+Press `CTRL + C` to stop the server.
 
 ## Command Line Shortcuts
 
