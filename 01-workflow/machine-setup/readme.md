@@ -48,4 +48,32 @@ TODO
 
 Now that we know a little bit about using the terminal, let's create some shortcuts in order to make our lives easier. Many times you will want to open up your current location in your text editor of choice. Let's make shortcuts for VS Code and/or Sublime Text and/or Atom.
 
-TODO: code and subl and atom shortcuts
+**Sublime Text***
+
+```bash
+ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+```
+
+**Atom**
+
+```bash
+ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
+```
+
+**VS Code**
+
+1. Open up your terminal
+1. Open up your Z-Shell config file with the following command: 
+  * `open ~/.zshrc`
+1. Add the following line to the file:
+  * `export PATH=$PATH:"/Applications/Visual Studio Code.app/Contents/Resources/app/bin"`
+1. Save and close the file
+
+**Last step**
+
+In order to have these shortcuts take effect, we need to fully restart the terminal. Go ahead and go up to the bar at the top and click Terminal -> Quit Terminal. You can now reopen it with the spotlight search as we did earlier. The commands will now work as follows:
+
+ * `code .` opens the current folder in VS Code
+ * `subl .` opens the current folder in Sublime Text
+ * `atom .` opens the current folder in Atom
+ 
