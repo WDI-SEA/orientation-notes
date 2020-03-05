@@ -9,6 +9,7 @@
   * [Github Workflow](01-workflow/github/readme.md)
 * [JavaScript Language Basics](02-javascript/readme.md)
   * [JavaScript Fundamentals](02-javascript/fundamentals.md)
+  * [JavaScript Conditionals](02-javascript/conditionals.md)
   * [JavaScript Quiz 1](02-javascript/quiz1.md)
 * [DOM Manipulation](03-dom/readme.md)
   * [HTML/CSS Review](03-dom/html-css-review.md)
