@@ -1,8 +1,10 @@
 # JavaScript Fundamentals
 
+The language of the web, JavaScript is a programming language used for a variety of purposes. Let's learn a little about it.
+
 ## History of JavaScript
 
-TODO
+JavaScript was invented in 1999 by Brendan Eich for Netscape (now Mozilla) over the course of 10 days. Keep this fact in mind as we learn some of the quirks later!
 
 ## Comments
 
@@ -14,7 +16,24 @@ Comments are non-excuted code. Appropriate uses of comments include:
 
 > Tip: The most common inappropriate use of comments is to "save" old code. Remember this is what Git is for!
 
-TODO: Examples
+Comments come in two forms
+
+### Single-line comments
+
+```js
+// descriptive stuff
+```
+### Multi-line comments
+
+```js
+/**
+  These
+  are
+  comments on
+  many lines
+*/
+
+```
 
 ## Declaring Variables
 
@@ -26,7 +45,47 @@ TODO
 
 ## Primitive Types
 
-TODO
+There are 5 primitive types in JavaScript:
+
+* Numbers
+* Strings
+* Booleans
+* Null and Undefined (related but different concepts!)
+
+### Numbers
+
+Numbers are one of the *types* of **values** we want to be able to interact and play with in JS.
+
+**Integers**
+
+```
+ ..., -1, 0, 2, 3, 4, 5, ...
+```
+
+**Floats (or Decimal numbers)**
+
+```
+ 2.718, 3.14, .5, .25, etc
+```
+
+In JS these are both the same **type** of object, which it calls *Numbers*.
+
+This can infrequently cause problems!
+
+```js
+0.1 * 0.2 = 0.020000000000000004
+```
+
+[How to deal with floating point precision in JavaScript](http://stackoverflow.com/questions/1458633/how-to-deal-with-floating-point-number-precision-in-javascript)
+
+**Exercise**
+
+```js
+2 + 2 * 3
+```
+
+How would you get the `2 + 2` to execute before the `* 3`? In other words, how would you change this expression to get 12?
+
 
 ## Operators
 
