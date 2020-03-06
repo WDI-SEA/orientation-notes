@@ -1,6 +1,7 @@
 * [Introduction](README.md)
   * [Schedule](00-intro/schedule.md)
   * [Ice Breaker 1](00-intro/ice-breaker1.md)
+  * [Ice Breaker 2](00-intro/ice-breaker2.md)
   * [Front Lines Pro-Tips](00-intro/front-lines/readme.md)
   * [How Stuff Works](00-intro/how-stuff-works.md)
 * [Development Workflow](01-workflow/readme.md)
