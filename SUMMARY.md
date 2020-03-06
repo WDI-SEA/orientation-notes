@@ -15,6 +15,8 @@
   * [JavaScript Conditionals](02-javascript/conditionals.md)
   * [JavaScript Quiz 1](02-javascript/quiz1.md)
   * [JavaScript Loops](02-javascript/loops.md)
+  * [JavaScript Functions](02-javascript/functions.md)
+  * [JavaScript Callbacks/Iterators](02-javascript/callbacks-and-iterators.md)
 * [DOM Manipulation](03-dom/readme.md)
   * [HTML/CSS Review](03-dom/html-css-review.md)
   * [DOM Manipulation](03-dom/manipulation.md)
