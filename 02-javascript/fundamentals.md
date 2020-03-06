@@ -35,14 +35,6 @@ Comments come in two forms
 
 ```
 
-## Declaring Variables
-
-TODO
-
-## Printing
-
-TODO
-
 ## Primitive Types
 
 There are 5 primitive types in JavaScript:
@@ -86,6 +78,13 @@ This can infrequently cause problems!
 
 How would you get the `2 + 2` to execute before the `* 3`? In other words, how would you change this expression to get 12?
 
+## Declaring Variables
+
+TODO
+
+## Printing
+
+TODO
 
 ## Operators
 
