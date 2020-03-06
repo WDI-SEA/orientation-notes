@@ -26,7 +26,7 @@ Comments come in two forms
 ### Multi-line comments
 
 ```js
-/**
+/*
   These
   are
   comments on
@@ -77,7 +77,7 @@ How would you get the `2 + 2` to execute before the `* 3`? (In other words, how 
   <summary>Ready for the answers to part 1?</summary>
   <br />
   Just like in math, parentheses can be used to provide guidance for order of operations. We sincerely hope we aren't dredging up weird junior high memories by invoking the name PEMDAS (or Please Excuse My Dear Aunt Sally), which tell you among other things that items within parentheses are evaluated before other operators.
-  <br />
+  <br /><br />
   So, in summary, we can get the result 12 by doing the following: `(2 + 2) * 3`. Try it out!
 </details>
 
@@ -94,9 +94,9 @@ What do you think is the cause of this problem?
   <summary>Ready for the answers to part 2?</summary>
   <br />
   0.1 * 0.2 = 0.020000000000000004
-  <br />
+  <br /><br />
   You may be wondering what's going on. It turns out that this is caused by a floating point rounding error. While the vast majority of programming languages would simply round it off and clean this up for you, JavaScript just leaves you to have fun with this weird quirk.
-  <br />
+  <br /><br />
   Just in case you ever do have to deal with this issue, read this Stack Overflow article about [how to deal with floating point precision in JavaScript](http://stackoverflow.com/questions/1458633/how-to-deal-with-floating-point-number-precision-in-javascript)
 </details>
 
@@ -121,7 +121,8 @@ Try this...
 "1" + 1
 ```
 
-1. Without removing the quotes, how would you get this to equal 2?
+1. You probably expected the value 2 or perhaps an error. What did you get instead?
+1. Without removing the quotes, how would you get this to equal 2? (**HINT**: Google "JavaScript Type Coersion")
 1. Is the statement `1 + "1"` an equivalent statement to above (meaning, it gets the same result)?
 
 ## Declaring Variables
