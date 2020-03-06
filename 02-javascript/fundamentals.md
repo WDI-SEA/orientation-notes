@@ -62,21 +62,43 @@ Numbers are one of the *types* of **values** we want to be able to interact and 
 
 In JS these are both the same **type** of object, which it calls *Numbers*.
 
-This can infrequently cause problems!
+**Numbers Mini-Quiz**
 
-```js
-0.1 * 0.2 = 0.020000000000000004
-```
-
-[How to deal with floating point precision in JavaScript](http://stackoverflow.com/questions/1458633/how-to-deal-with-floating-point-number-precision-in-javascript)
-
-**Numbers Exercise**
+Part 1: Type the following into your console or repl:
 
 ```js
 2 + 2 * 3
 ```
 
-How would you get the `2 + 2` to execute before the `* 3`? In other words, how would you change this expression to get 12?
+What value do you get?
+How would you get the `2 + 2` to execute before the `* 3`? (In other words, how would you change this expression to get 12?)
+
+<details>
+  <summary>Ready for the answers to part 1?</summary>
+  <br />
+  Just like in math, parentheses can be used to provide guidance for order of operations. We sincerely hope we aren't dredging up weird junior high memories by invoking the name PEMDAS (or Please Excuse My Dear Aunt Sally), which tell you among other things that items within parentheses are evaluated before other operators.
+  <br />
+  So, in summary, we can get the result 12 by doing the following: `(2 + 2) * 3`. Try it out!
+</details>
+
+Part 2: Next, type the following into your console or repl:
+
+```js
+0.1 * 0.2 
+```
+
+What value do you get? 
+What do you think is the cause of this problem?
+
+<details>
+  <summary>Ready for the answers to part 2?</summary>
+  <br />
+  0.1 * 0.2 = 0.020000000000000004
+  <br />
+  You may be wondering what's going on. It turns out that this is caused by a floating point rounding error. While the vast majority of programming languages would simply round it off and clean this up for you, JavaScript just leaves you to have fun with this weird quirk.
+  <br />
+  Just in case you ever do have to deal with this issue, read this Stack Overflow article about [how to deal with floating point precision in JavaScript](http://stackoverflow.com/questions/1458633/how-to-deal-with-floating-point-number-precision-in-javascript)
+</details>
 
 ### Strings
 
