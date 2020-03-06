@@ -1,4 +1,4 @@
-# JavaScript Fundamentals
+# JavaScript Quiz 1: Fundamentals
 
 ## Your Name: ______________________ Your Score: ___________________
 
