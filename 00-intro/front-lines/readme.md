@@ -35,7 +35,7 @@ Yes, with some restrictions.
 1. You can't have it if it's already booked
 1. Just because it's empty doesn't mean it's free!
 1. If it is free, please limit your reservation time to a max of 45 minutes!
-1. Reservations are to be made through front lines
+1. Reservations are to be made through front lines 24 hours in advance
 1. Please reserve it for phone/video calls or interviews, don't just book it randomly to do work you could do elsewhere!
 
 Additionally, you should be aware that these rooms are not soundproof. Again, for those in the back, **NOT SOUNDPROOF!!**
