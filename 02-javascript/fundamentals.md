@@ -125,6 +125,14 @@ Try this...
 1. Without removing the quotes, how would you get this to equal 2? (**HINT**: Google "JavaScript Type Coersion")
 1. Is the statement `1 + "1"` an equivalent statement to above (meaning, it gets the same result)?
 
+### Booleans
+
+TODO
+
+### Null and Undefined
+
+TODO
+
 ## Declaring Variables
 
 TODO
