@@ -2,6 +2,8 @@
 
 HTML stands for **H**yper**T**ext **M**arkup **L**anguage. CSS stands for **C**ascading **S**tyle **S**heets. But you already knew that right?
 
+## HTML
+
 In the pre-work, you should have covered using basic HTML elements. Here's a table for review:
 
 | Element | Tag | Purpose |
@@ -14,3 +16,11 @@ In the pre-work, you should have covered using basic HTML elements. Here's a tab
 | Semantic Tags | for ex, `<main>` or `<section>` | These are divs, but renamed to be more meaningful |
 | Image | `<img>` | Display an image |
 | Form | `<form>` | A form |
+
+## CSS Review
+
+TODO: Table
+
+## Including CSS: External, Internal, and Inline
+
+TODO
