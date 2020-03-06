@@ -14,6 +14,7 @@
   * [JavaScript Fundamentals](02-javascript/fundamentals.md)
   * [JavaScript Conditionals](02-javascript/conditionals.md)
   * [JavaScript Quiz 1](02-javascript/quiz1.md)
+  * [JavaScript Loops](02-javascript/loops.md)
 * [DOM Manipulation](03-dom/readme.md)
   * [HTML/CSS Review](03-dom/html-css-review.md)
   * [DOM Manipulation](03-dom/manipulation.md)
