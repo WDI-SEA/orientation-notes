@@ -70,13 +70,37 @@ This can infrequently cause problems!
 
 [How to deal with floating point precision in JavaScript](http://stackoverflow.com/questions/1458633/how-to-deal-with-floating-point-number-precision-in-javascript)
 
-**Exercise**
+**Numbers Exercise**
 
 ```js
 2 + 2 * 3
 ```
 
 How would you get the `2 + 2` to execute before the `* 3`? In other words, how would you change this expression to get 12?
+
+### Strings
+
+Strings are collections of letters and symbols known as **Characters**, and we use them to deal with words and text in Javascript. Strings are just another type of **value** in Javascript.
+
+```js
+"John"
+'Jane'
+```
+
+**Strings Exercise**
+
+You can use operators on strings too! Try typing `"John" + "Jane"`. This is called String concatenation
+
+### Tangent: Type coercion
+
+Try this...
+
+```js
+"1" + 1
+```
+
+1. Without removing the quotes, how would you get this to equal 2?
+1. Is the statement `1 + "1"` an equivalent statement to above (meaning, it gets the same result)?
 
 ## Declaring Variables
 
