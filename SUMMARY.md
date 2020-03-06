@@ -2,7 +2,7 @@
   * [Schedule](00-intro/schedule.md)
   * [Ice Breaker 1](00-intro/ice-breaker1.md)
   * [Front Lines Pro-Tips](00-intro/front-lines/readme.md)
-  * [Front Lines Pro-Tips](00-intro/how-stuff-works.md)
+  * [How Stuff Works](00-intro/how-stuff-works.md)
 * [Development Workflow](01-workflow/readme.md)
   * [Choosing Your Tools](01-workflow/choosing-tools/readme.md)
   * [Keyboard Shortcuts](01-workflow/keyboard-shortcuts/readme.md)
