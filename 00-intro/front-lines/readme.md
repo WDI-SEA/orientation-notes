@@ -10,7 +10,7 @@ Front lines is here to make sure everything at General Assembly Seattle is runni
 
 First and foremost, you should have the contact methods for front lines saved in your contacts lists.
 
-**Phone**: (206) 258-7033
+**Phone**: (818) 224-0674
 
 **Email**: seafrontdesk@ga.co
 
@@ -22,13 +22,21 @@ First and foremost, you should have the contact methods for front lines saved in
 
 Email the file to the front desk email listed above. If the info is sensitive (like if you need to print medical or tax info or something) simply request in the email that the document be kept behind the front desk where it can't be seen by passers by.
 
+Information we'd like you to provide about each preint request:
+
+* Do you need this printed in color or black and white?
+* How many copies?
+* Single or double-sided?
+
 #### Can I book a phone room?
 
 Yes, with some restrictions. 
 
 1. You can't have it if it's already booked
-1. If it's free, please limit your reservation time to a max of 45 minutes
-1. Please reserve it for phone/video calls or interviews, don't just book it randomly to do work you could do elsewhere
+1. Just because it's empty doesn't mean it's free!
+1. If it is free, please limit your reservation time to a max of 45 minutes!
+1. Reservations are to be made through front lines
+1. Please reserve it for phone/video calls or interviews, don't just book it randomly to do work you could do elsewhere!
 
 Additionally, you should be aware that these rooms are not soundproof. Again, for those in the back, **NOT SOUNDPROOF!!**
 
