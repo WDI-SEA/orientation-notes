@@ -56,6 +56,7 @@ That said, here are some tips:
 * If you borrow something from front lines, it's just good form to return it
 * If there's a class going on in the room across from the front desk, please be mindful of that
 * Label your belongings like waterbottles and chargers. This makes it much easier to return these items to you if you leave them on campus accidentally!
+* If you plan on bringing a guest to campus (that's fine!) please let front lines know to expect a visitor!
 
 ## Activity: Let's get labelled!
 
