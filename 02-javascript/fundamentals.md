@@ -127,11 +127,20 @@ Try this...
 
 ### Booleans
 
-TODO
+Booleans are sometimes called "flags". They have only two values - `true` and `false` (or you can think of them as `on` and `off`!).
+
+```js
+true
+false
+```
 
 ### Null and Undefined
 
-TODO
+We'll get further into these later, but basically these values are used when there is no value. If you access something that doesn't have a value, you'll get `undefined`. If you purposely want a value to not exist, you might use the `null` value. 
+
+> Fun Fact: Most languages don't make any distinction between these two concepts!
+
+If you want a little more detail as to why these are two separate concepts, check out [this codeburst article](https://codeburst.io/javascript-whats-the-difference-between-null-undefined-37793b5bfce6) for a good high-level explanation with some code examples.
 
 ## Declaring Variables
 
