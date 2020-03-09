@@ -46,6 +46,7 @@ _We will be using the `Math` object for this problem._
 #### Part 4: 
 
 **No coding is needed for this part!**
+Don't worry if you don't know how the code would actually be run. This is just a high-level thinking exercise!
 
 * We are given a list of 20 numbers. We have to go through the list and find the largest number.
 * What would the pseudocode for this problem look like? What variables would we need?
