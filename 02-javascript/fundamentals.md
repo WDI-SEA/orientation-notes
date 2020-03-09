@@ -340,7 +340,9 @@ The available operators for numbers are:
 | `-` | Subtraction |
 | `*` | Multiplication |
 | `/` | Division |
-| `%` | Modulus |
+| `%` | Modulo |
+
+What does the modulo operator do? 
 
 ### Comparison Operators
 
@@ -382,6 +384,24 @@ We know that 5 is equal to 5, and JavaScript knows it too, so it prints "true". 
 Let's discuss - what's going on with those last three lines?
 
 ### Math Object
+
+For more complex math operations, such as calculating an exponent, generating a random number, or using a constant like Pi, we can use JavaScript's built-in `Math` object. Let's look at some example code:
+
+**Exponents**
+
+```js
+let twoToTheFourthPower = Math.pow(2, 4)
+```
+
+> Note: As of ES7, we also have access to the `**` operator for exponents. Neat!
+
+**Random Numbers**
+
+TODO
+
+**Accessing Pi**
+
+TODO
 
 ## Complex Types: Arrays and Objects
 
