@@ -235,11 +235,72 @@ What happens?
 
 **let and var**
 
-"Let" and "var" serve the same purpose in the majority of cases. "Let" is more specifically scoped, which doesn't really come into play until we start using for loops. "Var" was solely used previous to the ES6 version of the language.
+"Let" and "var" serve the same purpose in the majority of cases. "Let" is more specifically scoped, which doesn't really come into play until we start using for loops. "Var" was solely used previous to the ES6 version of the language. You can use either of them for now, we'll come back to this difference later.
 
 ## Printing
 
-TODO
+Printing just means showing text or data to the screen. 
+
+> Note: For your repl or your developer tools console, it's interactive and automatically prints the last statement's result. When we run a local file with `node` on our terminal, we don't get this explicit evaluation.
+
+We can explicitly tell our code we would like to print by using the `console.log()` function. This is a built-in feature of JavaScript. We can print the text "I love cats!" by running the following code:
+
+```js
+console.log("I love cats!")
+```
+
+We can also print the value of variables. This code will give the same result as above:
+
+
+```js
+let message = "I love cats!"
+console.log(message)
+```
+
+**Mini-Activity**
+
+PART 1: Run the following code in your repl:
+
+```js
+let message = "I love cats!"
+console.log(message, message, message)
+```
+
+What prints out?
+What is the separator character used between each print out of the message?
+
+PART 2: Now, run this slightly altered code in your repl:
+
+```js
+let message = "I love cats!"
+console.log(message + message + message)
+```
+
+What prints out?
+What is the separator character used between each print out of the message?
+What do you think is the difference between the two approaches?
+
+<details>
+  <summary>Answers for Mini-Activity</summary>
+  <br /><br />
+  You may have noticed that the code in part 1 was separated by commas. This feeds in three separate arguments. When we feed in several arguments, console.log separates them with a space.
+  <br /><br />
+  In part 2, the code was joined together with the `+` operator. The plus operator, when used on string types performs an action called "concatenation", which is the fancy term for smashing them all together. This concatenation operation happens before the print out happens. The code `console.log(message + message + message)` becomes `console.log("I love cats!I love cats!I love cats!")` before the console.log happens.
+</details>
+
+### String Concatenation vs String Interpolation
+
+So, we learned a little bit about concatenation in the last activity. We can concatenate together whole sentences including variables and punctuation. Take this code for example:
+
+```js
+let name = "Brandi"
+let title = "Instructor"
+let class = "SEI"
+console.log("Hello " + class + ", my name is " + name + ", and I will be your " + class + " " + title + "!")
+// Prints: "Hello SEI, my name is Brandi, and I will be your SEI Instructor!"
+```
+
+It totally works... but it was a little tedious right?
 
 ## Operators
 
