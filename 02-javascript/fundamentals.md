@@ -10,15 +10,25 @@ JavaScript was invented in 1999 by Brendan Eich for Netscape (now Mozilla) over 
 
 REPL stands for Read-Evaluate-Print-Loop. Basically it's an interactive environment where you can run code. You may have used websites like [codepen](https://codepen.io/) or [repl.it](https://repl.it/) over the course of the pre-work. If you have discovered the developer tools in Chrome or Firefox, then you may have used the console tab for the same purpose. The most common usage for REPLs is when you don't want to take the time to make a file and just want to see how a bit of code runs quickly or to practice new concepts when learning code. 
 
-For any exercises below, let's use [repl.it](https://repl.it/). Once you're signed in, at the top right corner, you should see a button that says "new repl":
+For any exercises below, let's use [repl.it](https://repl.it/). 
+
+#### 1. Take a minute to get signed in
+
+Or, sign up if you don't have an account already. It's free!
+
+#### 2. At the top right corner, you should see a button that says "new repl". 
 
 ![](https://res.cloudinary.com/briezh/image/upload/v1583773053/Screen_Shot_2020-03-09_at_9.56.56_AM_sa7pu9.png)
 
-Click that button and a menu that looks like this will come up:
+#### 3. Click that "new repl" button 
 
-![](https://res.cloudinary.com/briezh/image/upload/v1583773147/Screen_Shot_2020-03-09_at_9.58.46_AM_irzf1z.png)
+A menu that looks like this will come up:
 
+![](https://res.cloudinary.com/briezh/image/upload/c_scale,w_305/v1583773147/Screen_Shot_2020-03-09_at_9.58.46_AM_irzf1z.png)
 
+#### 4. Start typing "JavaScript". When it comes up, click on it
+
+![](https://res.cloudinary.com/briezh/image/upload/c_scale,w_296/v1583774044/Screen_Shot_2020-03-09_at_10.13.37_AM_tow1hi.png)
 
 ## Comments
 
