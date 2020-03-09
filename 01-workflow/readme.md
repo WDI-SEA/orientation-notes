@@ -5,7 +5,6 @@ Learning programming will be stressful at times during the course, particularly 
 This is going to include:
 
 * Tips on how to use your Mac like a pro
-* An overview of how the internet and world wide web work
 * Familiarizing with programs and tools we'll be using during the class
 * Installing some stuff now so we don't have to take up class time on it
 * Learning how to use your command line
