@@ -178,6 +178,20 @@ If you want a little more detail as to why these are two separate concepts, chec
 
 ## Declaring Variables
 
+You can think of a variable as a box that you can put something in. Consider the following line:
+
+```js
+var x = 5
+```
+
+What is happening? You've *declared* a variable named "x". It represents a memory space somewhere in your computer - additionally, in the same line, we've decided to fill up that memory space with the value 5.
+
+We can also declare a variable without providing a value. Think of this as obtaining a box that you might put something into later.
+
+TODO
+
+### Let vs Var vs Const??
+
 TODO
 
 ## Printing
