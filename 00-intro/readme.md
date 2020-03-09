@@ -7,6 +7,7 @@ This section will include:
 * Ice breakers
 * Tips on how to interact with front lines
 * A scavenger hunt
+* A short overview of how the internet and world wide web work
 
 
 Let's get started!
