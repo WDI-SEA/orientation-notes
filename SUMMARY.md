@@ -23,6 +23,7 @@
   * [JavaScript Quiz 2](02-javascript/js-quiz2.md)
 * [DOM Manipulation](03-dom/readme.md)
   * [HTML/CSS Review](03-dom/html-css-review.md)
+  * [Devtools and Inspector](03-dom/devtools.md)
   * [DOM Manipulation](03-dom/manipulation.md)
   * [DOM Quiz](03-dom/quiz2.md)
   * [DOM Events](03-dom/events.md)
