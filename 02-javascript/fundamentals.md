@@ -385,7 +385,7 @@ Let's discuss - what's going on with those last three lines?
 
 ### Math Object
 
-For more complex math operations, such as calculating an exponent, generating a random number, or using a constant like Pi, we can use JavaScript's built-in `Math` object. Let's look at some example code:
+For more complex math operations, such as calculating an exponent, generating a random number, rounding a decimal, or using a constant like Pi, we can use JavaScript's built-in `Math` object. Let's look at some example code:
 
 **Exponents**
 
@@ -393,15 +393,77 @@ For more complex math operations, such as calculating an exponent, generating a 
 let twoToTheFourthPower = Math.pow(2, 4)
 ```
 
-> Note: As of ES7, we also have access to the `**` operator for exponents. Neat!
+> Note: As of ES7, we also have access to the `**` operator for [exponents](https://2ality.com/2016/02/exponentiation-operator.html). Neat!
 
 **Random Numbers**
 
-TODO
+JavaScript can generate a pseudo-random number for us with `Math.random()`. Go ahead and run the following code several times:
+
+```js
+console.log(Math.random())
+```
+
+You should get a different number every time, however you may notice that it is only generating decimals between 0 and 1. This is by design! If you would like to make a number in a certain range, you can multiply by that number. For example, if I want a range of 10 numbers:
+
+```js
+console.log(Math.random() * 10)
+```
+
+This will generate random values between 0.00000 and 9.99999. This probably still isn't what we want. Instead, we can also use the Math object to get to a whole number.
+
+**Rounding, Floor, and Ceiling**
+
+```js
+let value = Math.random() * 10
+Math.floor(value) // Go to nearest whole number lower than the decimal
+Math.ceil(value) // Go to nearest whole number higher than the decimal
+Math.round(value) // Go to nearest whole number lower or higher than the decimal, whichever is closest
+```
+
+For example, let's say I generated a random value of `8.121381319092333`.
+
+```js
+Math.floor(8.121381319092333) // Evaluates to 8
+Math.ceil(8.121381319092333) // Evaluates to 9
+Math.round(8.121381319092333) // Evaluates to 8
+```
+
+In our case, we probably want the lowest value to be 1 and the highest number to be 10. Thus, for a range of 0.000000 to 9.99999, we likely want to use `Math.ceil()`
 
 **Accessing Pi**
 
-TODO
+PI is a constant on the math object. You can use it just like this:
+
+```js
+console.log(Math.PI)
+```
+
+In a calculation, such as the circumference of a circle, `C = 2πr`, we can use the PI constant to calculate the result. Let's say we want to know what the circumference of a medium pizza is. A typical medium pizza is 12 inches across.
+
+```js
+// We know the pizza is 12 inches in diameter
+let diameter = 12
+
+// The radius is half of the diameter
+let radius = diameter / 2
+
+// Now we can use the equation C = 2πr
+let circumference = 2 * Math.PI * radius
+
+// Print out the raw value
+console.log('A medium pizza has', circumference, 'inches of crust!')
+
+// Let's round it to the nearest whole number
+console.log('A medium pizza has roughly', Math.round(circumference), 'inches of crust!')
+```
+
+You should get a result like this:
+
+![](https://res.cloudinary.com/briezh/image/upload/c_scale,w_615/v1583781557/Screen_Shot_2020-03-09_at_12.18.57_PM_yrsdtb.png)
+
+**Mini-Activity**
+
+You may recall that the area of a circle is calculated with πr<super>2</super>. Let's find out what the difference in area is between a medium pizza and a large pizza.
 
 ## Complex Types: Arrays and Objects
 
