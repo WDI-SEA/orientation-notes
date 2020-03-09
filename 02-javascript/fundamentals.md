@@ -30,6 +30,16 @@ A menu that looks like this will come up:
 
 ![](https://res.cloudinary.com/briezh/image/upload/c_scale,w_296/v1583774044/Screen_Shot_2020-03-09_at_10.13.37_AM_tow1hi.png)
 
+#### 5. Name your repl "practice" and then click the green "create repl" button
+
+![](https://res.cloudinary.com/briezh/image/upload/c_scale,w_400/v1583774223/Screen_Shot_2020-03-09_at_10.16.41_AM_x8sch7.png)
+
+#### 6. Finally you have your repl ready to go!
+
+You can type JavaScript code on the left side, and then run it with the green button at the top. The results of your code will display on the right.
+
+![](https://res.cloudinary.com/briezh/image/upload/c_scale,w_757/v1583774402/Screen_Shot_2020-03-09_at_10.19.37_AM_kbd5ii.png)
+
 ## Comments
 
 Comments are non-excuted code. Appropriate uses of comments include:
