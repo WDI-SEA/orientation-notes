@@ -1,14 +1,12 @@
 # Introduction Topics
 
-Learning programming will be stressful at times during the course, particularly early on! To take some stress off your plate and give you one less thing to worry about, we want to make sure that your computer and tools are all set up correctly.
+Software Engineering Immersive is only 12 weeks long, and this time will go by really quickly. Let's take a moment to get to know the space, each other, and some of the other friendly faces on campus.
 
-This is going to include:
+This section will include:
 
-* Tips on how to use your Mac like a pro
-* An overview of how the internet and world wide web work
-* Familiarizing with programs and tools we'll be using during the class
-* Installing some stuff now so we don't have to take up class time on it
-* Learning how to use your command line
-* Getting a little more comfortable with Git and Github
+* Ice breakers
+* Tips on how to interact with front lines
+* A scavenger hunt
+
 
 Let's get started!
