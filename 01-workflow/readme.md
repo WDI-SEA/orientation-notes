@@ -1,4 +1,14 @@
-# Workflow
+# Workflow Topics
 
-Code alongs and labs in class may go by really quickly. It's important to know some simple yet crucial things to speed up your development time! This can include helpful plug-ins for your favorite text editor, learning some command line tricks, and memorizing some keyboard shortcuts.
+Learning programming will be stressful at times during the course, particularly early on! To take some stress off your plate and give you one less thing to worry about, we want to make sure that your computer and tools are all set up correctly.
 
+This is going to include:
+
+* Tips on how to use your Mac like a pro
+* An overview of how the internet and world wide web work
+* Familiarizing with programs and tools we'll be using during the class
+* Installing some stuff now so we don't have to take up class time on it
+* Learning how to use your command line
+* Getting a little more comfortable with Git and Github
+
+Let's get started!
