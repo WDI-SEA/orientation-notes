@@ -14,7 +14,7 @@ This is the version of the JavaScript language. "ES6" stands for "ECMAScript6". 
 
 New versions of the language continue to come out every year. We're on ES10 as of the beginning of this class, but we should be getting ES11 right around when it wraps up. We don't really need to worry about this too much because all versions since ES6 have been relatively minor and mostly included additions rather than drastic changes.
 
-> Note: You may hear the term "ES.Next". ES.Next is a dynamic name that refers to whatever the next version is at the time of writing. We might use it in class to describe upcoming features.
+> Note: You may hear the term "ES.Next". ES.Next is a dynamic name that refers to whatever the next version is at the time of writing. We might use it in class to describe upcoming features. Check out more on the [Wikipedia page](https://en.wikipedia.org/wiki/ECMAScript#History) if you are curious!
 
 ## What is a REPL?
 
