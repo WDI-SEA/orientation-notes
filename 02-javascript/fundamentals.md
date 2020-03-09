@@ -482,8 +482,13 @@ let mediumArea = ???
 let largeArea = ???
 
 // 4. Print each out using console.log
+console.log(`A medium pizza has ${mediumArea} square inches`)
+console.log(`A large pizza has ${largeArea} square inches`)
 
 // 5. Console.log the difference between a large and medium in square inches
+let difference = largeArea - mediumArea
+console.log(`A large pizza has exactly ${difference} more square inches than a medium pizza!`)
+console.log(`A large pizza has roughly ${Math.round(difference)} more square inches than a medium pizza!`)
 ```
 
 ## Complex Types: Arrays and Objects
