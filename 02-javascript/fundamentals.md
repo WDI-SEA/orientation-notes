@@ -463,7 +463,28 @@ You should get a result like this:
 
 **Mini-Activity**
 
-You may recall that the area of a circle is calculated with πr<super>2</super>. Let's find out what the difference in area is between a medium pizza and a large pizza.
+You may recall that the area of a circle is calculated with πr<super>2</super>. Let's find out what the difference in area is between a medium pizza and a large pizza. A medium pizza as noted above has a diameter of 12 inches. A large pizza has a diameter of 14 inches. Let's use this starter code:
+
+```js
+let mediumDiameter = 12
+let largeDiameter = 14
+
+// 1. Calculate radius of both
+let mediumRadius = ???
+let largeRadius = ???
+
+// 2. Use the Math.pow or ** operator to find the square of each pizza size's radius
+let mediumRadiusSquared = ???
+let largeRadiusSquared = ???
+
+// 3. Use the equation to perform the calculation A = πr^2 for each pizza size
+let mediumArea = ???
+let largeArea = ???
+
+// 4. Print each out using console.log
+
+// 5. Console.log the difference between a large and medium in square inches
+```
 
 ## Complex Types: Arrays and Objects
 
