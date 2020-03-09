@@ -490,11 +490,3 @@ let difference = largeArea - mediumArea
 console.log(`A large pizza has exactly ${difference} more square inches than a medium pizza!`)
 console.log(`A large pizza has roughly ${Math.round(difference)} more square inches than a medium pizza!`)
 ```
-
-## Complex Types: Arrays and Objects
-
-TODO
-
-## Built-in String Methods
-
-TODO
