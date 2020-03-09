@@ -28,14 +28,16 @@ _We will be using the `Math` object for this problem._
 * Create two variables, `side1` and `side2`, which represent two sides of a triangle.
 * Assign these variables any positive integer values.
 * Create a third variable, `side3`, which represents the hypotenuse of the triangle.
-* Use the Pythogorean theorem to solve for the value of `side3`.
-	(https://en.wikipedia.org/wiki/Pythagorean_theorem)
-	  * _Hint: Take a look at the MDN reference for more information about the Math object._
-	(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
-	  * _Hint: We need to be able to calculate the square root of a number to find the
-	value of the hypotenuse. Does the Math object give us a function to find the square root?_
-	  * _Hint: We need to be able to calculate the square of a number to find the value of the hypotenuse. Does the Math object give us a function find the square of a number?_
-	  * Log all three variables to the console. Check the console to make sure you're getting the desired result.
+* Use the [Pythogorean theorem](https://en.wikipedia.org/wiki/Pythagorean_theorem) to solve for the value of `side3`.
+
+	
+> Hint 1: Take a look at the MDN reference for more information about the [Math object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
+
+> Hint 2: We need to be able to calculate the square root of a number to find the value of the hypotenuse. Does the Math object give us a function to find the square root?
+
+> Hint 3: We need to be able to calculate the square of a number to find the value of the hypotenuse. Does the Math object give us a function find the square of a number?
+	  
+> Hint 4: Log all three variables to the console. Check the console to make sure you're getting the desired result.
   
 #### Part 4: 
 
