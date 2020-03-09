@@ -1,4 +1,5 @@
-* [Introduction](README.md)
+* [Welcome](README.md)
+* [Introduction](00-intro/readme.md)
   * [Schedule](00-intro/schedule.md)
   * [Ice Breaker 1](00-intro/ice-breaker1.md)
   * [Ice Breaker 2](00-intro/ice-breaker2.md)
