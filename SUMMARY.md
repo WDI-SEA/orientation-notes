@@ -12,6 +12,7 @@
   * [Github Workflow](01-workflow/github/readme.md)
 * [JavaScript Language Basics](02-javascript/readme.md)
   * [JavaScript Fundamentals](02-javascript/fundamentals.md)
+  * [JavaScript Arrays and Objects](02-javascript/js-arrays.md)
   * [JavaScript Conditionals](02-javascript/conditionals.md)
   * [JavaScript Quiz 1](02-javascript/js-quiz1.md)
   * [JavaScript Loops](02-javascript/loops.md)
