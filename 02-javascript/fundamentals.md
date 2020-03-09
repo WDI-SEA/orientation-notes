@@ -300,11 +300,88 @@ console.log("Hello " + class + ", my name is " + name + ", and I will be your " 
 // Prints: "Hello SEI, my name is Brandi, and I will be your SEI Instructor!"
 ```
 
-It totally works... but it was a little tedious right?
+It totally works... but it was a little tedious right? Let's try this instead:
+
+```js
+let name = "Brandi"
+let title = "Instructor"
+let class = "SEI"
+console.log(`Hello ${class}, my name is ${name}, and I will be your ${class} ${title}!`)
+// Prints: "Hello SEI, my name is Brandi, and I will be your SEI Instructor!"
+```
+
+Does it work for you? Notice that our normal quotes `'` or `"`, we instead have backticks, and we specify which parts are variables as opposed to literal text by using a dollar sign and then surrounding the variable's name with curly braces, like this: `${variableName}`.
+
+**Mini-Activity**
+
+Copy the following code into your repl:
+
+```js
+let name = "YOURNAMEHERE"
+let title = "Student"
+let class = "SEI"
+console.log(`YOURTEXTHERE`)
+// Prints: "Hello SEI, my name is YOURNAMEHERE, and I will be your SEI Student!"
+```
+
+Change "YOURNAMEHERE" to your own first name. Then, change "YOURTEXTHERE" such that it prints out "Hello SEI, my name is YOURNAMEHERE, and I will be your SEI Student!" using string interpolation (the backticks) and the variables `name`, `class`, and `title`.
 
 ## Operators
 
-TODO
+In addition to variables, we also have operators we can use to perform actions on those variables. We've already alluded to it above when we talked about PEMDAS and when we did string concatenation.
+
+### Mathematical Operators
+
+The available operators for numbers are:
+
+| Operator | Purpose |
+| ------- | ---------------------------- |
+| `+` | Addition |
+| `-` | Subtraction |
+| `*` | Multiplication |
+| `/` | Division |
+| `%` | Modulus |
+
+### Comparison Operators
+
+Comparison operators evaluate to booleans. Either the condition is met (`true`) or it isn't (`false`).
+
+| Operator | Purpose |
+| ------- | ---------------------------- |
+| `==` | Equality |
+| `===` | Type Strict Equality |
+| `!=` | Inequality |
+| `!==` | Type Strict Inequality |
+| `<` | Less than |
+| `<=` | Less than or equal to |
+| `>` | Greater than |
+| `>=` | Greater than or equal to |
+
+**Mini-Activity**
+
+You can plug in values to notice that each of these operators evaluates to a boolean. For example, in your repl or console, type the following:
+
+```js
+5 == 5
+```
+
+> Note: You can use `console.log(5 == 5)` to see the result if you aren't typing line by line into a console.
+
+We know that 5 is equal to 5, and JavaScript knows it too, so it prints "true". Go ahead and try the following as well. What does each line evaluate to?:
+
+```js
+3 < 2
+3 > 2
+5 > 5
+5 >= 5
+"4" == 4
+"4" === 4
+4 === 4
+```
+
+Let's discuss - what's going on with those last three lines?
+
+### Math Object
 
 ## Complex Types: Arrays and Objects
 
