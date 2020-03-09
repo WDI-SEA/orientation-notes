@@ -6,7 +6,7 @@
 
 > When tackling a new programming challenge, it is tempting to dive right into the code. For simpler problems that the developer has seen before, this might not be an issue. But for larger problems that they haven't seen before, developers will usually plan out their solution in plain English to make sure their logic is correct. We'll practice pseudocode so we can be comfortable tackling new problems that come our way.
 
-## Exercise
+## Exercises
 
 ### Directions
 
@@ -38,6 +38,10 @@ _We will be using the `Math` object for this problem._
 > Hint 3: We need to be able to calculate the square of a number to find the value of the hypotenuse. Does the Math object give us a function find the square of a number?
 	  
 > Hint 4: Log all three variables to the console. Check the console to make sure you're getting the desired result.
+
+## Pseudocode
+
+### Directions
   
 #### Part 4: 
 
