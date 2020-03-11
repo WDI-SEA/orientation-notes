@@ -34,6 +34,10 @@ So, now that we know the offending CSS is located in the `local-ntp.css` file on
 
 TODO
 
+### Finding JavaScript Error Messages
+
+TODO
+
 ## Network Tab
 
 On this tab, you can see which files loaded and which didn't. This tab isn't automatically populated like the others, so you'll need to do a refresh in order for it to be updated.
@@ -41,6 +45,39 @@ On this tab, you can see which files loaded and which didn't. This tab isn't aut
 Once you reload the page, you should see something like this:
 
 ![](https://res.cloudinary.com/briezh/image/upload/c_scale,h_457/v1583948683/Screen_Shot_2020-03-11_at_10.44.08_AM_lmxa0d.png)
-### Finding JavaScript Error Messages
 
-TODO
+In this case, we're trying to load many files from the server, including JS, CSS, images, videos, and audio files. The name of the file and the server response shows up in the first and second rows above. The status code 200 means everything went okay and we received the file. You may also be familiar with the status code 404 - that means we couldn't find the file and therefore we did not receive it.
+
+### HTTP Status Codes
+
+The second row in the above screenshot shows [HTTP status codes](https://www.restapitutorial.com/httpstatuscodes.html). Generally, HTTP Codes are from 100s to 500s, and the first number represents a general category of responses from the server.
+
+| Status Codes | Meaning |
+| ------- | ---------------------------------------------------------------------- |
+| 1xx | This is informational only (typically an intermediate state you never see) |
+| 2xx | Everything went well and as expected. Yay! |
+| 3xx | This indicates a redirection of some sort |
+| 4xx | Client error of some sort (i.e., you did something wrong) |
+| 5xx | Server error of some sort (i.e., they did something wrong) |
+
+Let's take a look at some of the most common status codes you'll run across:
+
+
+| Status Code | Meaning |
+| ------- | ---------------------------------------------------------------------- |
+| 200 | OK (i.e., everything is wonderful) |
+| 204 | No Content (expected after a successful deletion) |
+| 301 | Moved Permanently (permanent redirect) |
+| 302 | Found (temporary redirect) |
+| 304 | Not Modified (i.e., your browser got this file from its cache) |
+| 401 | Unauthorized |
+| 404 | Not Found (you accessed a resource that doesn't exist) |
+| 500 | Internal Server Error (uh oh! time to blame the programmers!) |
+| 503 | Service Unavailable (typically, when a site is unexpectedly down) |
+
+
+These are the most common statuses we'll use in the class or come across in the wild, however, let's take a second to look at a visual representation of the status codes.
+
+**But first...**
+
+Are you a [cat person](https://http.cat/) or a [dog person](https://httpstatusdogs.com/)?
