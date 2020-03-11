@@ -32,11 +32,9 @@ So, now that we know the offending CSS is located in the `local-ntp.css` file on
 
 ## Console Tab
 
-TODO
+The console tab is where you will find any JavaScript errors that occurred on the page. It is also an interactive console - that is, you can type JavaScript code into and it will execute (try it!). Any `console.log` statements in your code will also be printing out here.
 
-### Finding JavaScript Error Messages
-
-TODO
+Let's do a short [demo](http://bounty-hunter-client-brandi.herokuapp.com/) together! Open up this website and then open up the console tab!
 
 ## Network Tab
 
