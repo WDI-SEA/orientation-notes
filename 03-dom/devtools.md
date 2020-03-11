@@ -80,4 +80,6 @@ These are the most common statuses we'll use in the class or come across in the 
 
 **But first...**
 
-Are you a [cat person](https://http.cat/) or a [dog person](https://httpstatusdogs.com/)?
+Are you a [cat person](https://http.cat/) or a [dog person](https://httpstatusdogs.com/)? Choose wisely, your grade may depend on it!
+
+> Just kidding! One of your instructors is a cat person and one is a dog person, but truthfully, we both love cats AND dogs! ❤️
