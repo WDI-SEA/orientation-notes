@@ -19,6 +19,7 @@
   * [JavaScript Conditionals](02-javascript/conditionals.md)
   * [JavaScript Quiz 1](02-javascript/js-quiz1.md)
   * [JavaScript Loops](02-javascript/loops.md)
+  * [LAB: Implementing Pseudocode](02-javascript/labs/js-loops.md)
   * [JavaScript Functions](02-javascript/functions.md)
   * [JavaScript Callbacks/Iterators](02-javascript/callbacks-and-iterators.md)
   * [JavaScript Quiz 2](02-javascript/js-quiz2.md)
