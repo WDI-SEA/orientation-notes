@@ -14,7 +14,7 @@ We'll give you the first line to start out with below!
 
 #### 3. Put the lines of code (in order) into a repl
 
-Solve the riddle!
+Solve the riddle by running the code!
 
 ## Game Starter Code
 
