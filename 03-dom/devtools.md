@@ -2,7 +2,7 @@
 
 ## What are devtools? Why should I use them?
 
-TODO
+Chrome or Firefox Developer Tools will be a crucial tool for you to be able to access error messages, see if files are being loaded, and see how CSS styles are being applied to your web page. Part of being a good developer is knowing how and where to find error messages which will make us more likely to be able to solve a problem. No one likes bugs in their code, but error messages exist to give us a little hint about what went wrong. For that reason - let's think of them as helpers!
 
 ## How can I get to my devtools in the browser?
 
@@ -24,14 +24,23 @@ Continuing on with the Google logo on the Google homepage, let's dig into the CS
 
 ![](https://res.cloudinary.com/briezh/image/upload/c_scale,h_585/v1583947304/Screen_Shot_2020-03-11_at_10.21.09_AM_hrm9kv.png)
 
-So, how might we locate and fix a CSS error? Let's pretend that we're Google developers for a second, and we've been told say, that the `font-size` is wrong. Perhaps the `font-size` should be `16px`, but in the above screenshot, we can see that it's actually only displaying as `13px`. We can click
+So, how might we locate and fix a CSS error? Let's pretend that we're Google developers for a second, and we've been told say, that the `font-size` is wrong. Perhaps the `font-size` should be `16px`, but in the above screenshot, we can see that it's actually only displaying as `13px`. We need to determine where exactly that `13px` is coming from, at which point, it should be easy enough to go make a change. We can click on the style in question to see a little more detail, including the source file and location (line number) of that style.
 
 ![](https://res.cloudinary.com/briezh/image/upload/c_scale,w_717/v1583947563/Screen_Shot_2020-03-11_at_10.25.37_AM_ive3qu.png)
+
+So, now that we know the offending CSS is located in the `local-ntp.css` file on line 65, we can go locate that file and make a change!
 
 ## Console Tab
 
 TODO
 
+## Network Tab
+
+On this tab, you can see which files loaded and which didn't. This tab isn't automatically populated like the others, so you'll need to do a refresh in order for it to be updated.
+
+Once you reload the page, you should see something like this:
+
+![](https://res.cloudinary.com/briezh/image/upload/c_scale,h_457/v1583948683/Screen_Shot_2020-03-11_at_10.44.08_AM_lmxa0d.png)
 ### Finding JavaScript Error Messages
 
 TODO
