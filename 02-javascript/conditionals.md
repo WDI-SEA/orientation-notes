@@ -61,13 +61,63 @@ if (x = 5) {
 
 #### == (Equality)
 
-The double equals represents a 
+The double equals represents a loosey-goosey kind of equality. To see what we mean by this, let's do a short partner activity.
 
-TODO
+**Step 1: Get into pairs or small table groups (max 3 people)**
+
+**Step 2: For each of the following expressions, guess whether you'll get false or true or something else as a result**
+
+```js
+5 == 5
+
+5 == "5"
+
+true == true
+
+true == "true"
+
+false == ""
+
+0 == ""
+
+"Hello" == "World"
+```
+
+**Step 3: Try running the above expressions on your browser console**
+
+**Step 4: Talk about it**
+
+What did you expect? Was that what happened?
 
 #### === (Type Strict Equality)
 
-TODO
+You likely have a good idea where this is going! Let's use the triple equals now.
+
+**Step 1: Get into the same groups from the previous activity**
+
+**Step 2: For each of the following expressions, guess whether you'll get false or true or something else as a result**
+
+```js
+5 === 5
+
+5 === "5"
+
+true === true
+
+true === "true"
+
+false === ""
+
+0 === ""
+
+"Hello" === "World"
+```
+
+**Step 3: Try running the above expressions on your browser console**
+
+**Step 4: Talk about it**
+
+What did you expect? Was that what happened? What do you conclude is the difference between double and triple equals?
 
 ### Truthiness
 
