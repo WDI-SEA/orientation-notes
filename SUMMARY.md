@@ -14,6 +14,7 @@
 * [JavaScript Language Basics](02-javascript/readme.md)
   * [JavaScript Fundamentals](02-javascript/fundamentals.md)
   * [JavaScript Arrays and Objects](02-javascript/js-arrays.md)
+  * [Activity: Scavenger Hunt](02-javascript/scavenger-hunt.md)
   * [LAB: Exercises and Pseudocode](02-javascript/labs/js-code-and-psuedocode.md)
   * [JavaScript Conditionals](02-javascript/conditionals.md)
   * [JavaScript Quiz 1](02-javascript/js-quiz1.md)
