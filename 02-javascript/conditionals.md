@@ -21,8 +21,40 @@ Control flow is the order in which the computer executes statements in a script.
 
 But before that, let's create the expressions needed for these statements
 
-## Truthiness
+## Boolean Expressions
 
-If you recall, back in the JS fundamentals lesson, we mentioned the idea of "truthiness" and "falsiness". 
+### = vs == vs === 
 
 TODO
+
+### Truthiness
+
+If you recall, back in the JS fundamentals lesson, we mentioned the idea of "truthiness" and "falsiness". This is a way we can essentially create a shorthand boolean expression. It works like this: Each value in JavaScript has an inherent _truthy_ or _falsy_ value when used as a boolean expression. Consider the following code:
+
+```js
+let x = 5
+if (x) {
+  console.log('x is truthy!')
+}
+else {
+  console.log('x is falsy!'
+}
+```
+
+Try running it. What prints out? What value of x results in truthy? What value of x results in falsy?
+
+#### Falsy Values
+
+As you may have noticed above, values are generally truthy unless otherwise specified. It's easiest to just memorize the falsy values and assume everything else is truthy. Each primitive type has a falsy value, and there is an additional falsy value known as `NaN` - not a number.
+
+| Falsy Value | Notes |
+| -------- | ----------------- |
+| `""` | Empty string (String type) |
+| `0` | zero (Number type) |
+| `false` | false (Boolean type) |
+| `null` | null (Null type) |
+| `undefined` | undefined (Undefined type) |
+| `NaN` | Not a Number |
+
+> Warning: Complex types such as arrays and objects are based on memory addresses and therefore are ALWAYS truthy. You may have expected an empty array `[]` or an empty object `{}` to be falsy, and no one would blame you for thinking that, but alas, JavaScript is janky.
+
