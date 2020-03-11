@@ -23,7 +23,49 @@ But before that, let's create the expressions needed for these statements
 
 ## Boolean Expressions
 
+Before we can make an if statement, we need to make a boolean expression for it. Generally an if statement follows this format:
+
+```js
+if (BOOLEAN EXPRESSION) {
+  // CODE THAT RUNS IF THE BOOLEAN EXPRESSION EVALUATED TO TRUE
+}
+```
+
 ### = vs == vs === 
+
+#### = (Assignment)
+
+The single equals sign is for assignment. If you've used this inside of an if statement it is _almost certainly a mistake_!
+
+Unfortunately, the result of assignment evaluates to a truthy value, so this will create some weird, unexpected behavior. For example, let's say you meant to write this code with two equals signs:
+
+```js
+let x = 4
+if (x == 5) {
+  // This appropriately doesn't execute
+  console.log('This should not be printed')
+}
+```
+
+But instead, you forgot one of the equals signs and wrote this instead:
+
+```js
+let x = 4
+if (x = 5) {
+  // AWW CRAP
+  console.log('This should not be printed')
+}
+```
+
+> Fun fact: Once we get to Python, it will helpfully and appropriately throw an error when you make a typo like this. However, until that time, we're using JavaScript, so let's learn to love jank for now!
+
+#### == (Equality)
+
+The double equals represents a 
+
+TODO
+
+#### === (Type Strict Equality)
 
 TODO
 
@@ -58,3 +100,4 @@ As you may have noticed above, values are generally truthy unless otherwise spec
 
 > Warning: Complex types such as arrays and objects are based on memory addresses and therefore are ALWAYS truthy. You may have expected an empty array `[]` or an empty object `{}` to be falsy, and no one would blame you for thinking that, but alas, JavaScript is janky.
 
+Learn more about JavaScript's 6 falsy values on [this freecodecamp article](https://guide.freecodecamp.org/javascript/falsy-values/).
