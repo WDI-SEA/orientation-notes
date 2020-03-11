@@ -5,13 +5,16 @@ We don't want to get too deep into JavaScript language details, but while we hav
 This section will cover:
 
 * JavaScript fundamentals such as declaring variables and using operators
-* JavaScript array and object types
-* JavaScript Conditionals
-* JavaScript Loops
-* JavaScript Built-in Array and String functions
+* JavaScript Array and Object types
+* JavaScript conditionals and boolean expressions
+
+Coming soon:
+
+* JavaScript loops
+* JavaScript built-in Array and String functions
 * JavaScript functions
 * JavaScript callback functions
-* JavaScript array iterators
+* JavaScript Array iterators
 * JavaScript timing functions
 
 Let's get started!
