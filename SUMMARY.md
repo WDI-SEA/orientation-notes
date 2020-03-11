@@ -18,15 +18,15 @@
   * [LAB: Exercises and Pseudocode](02-javascript/labs/js-code-and-psuedocode.md)
   * [JavaScript Conditionals](02-javascript/conditionals.md)
   * [JavaScript Quiz 1](02-javascript/js-quiz1.md)
-  * [JavaScript Loops](02-javascript/loops.md)
+  <!-- * [JavaScript Loops](02-javascript/loops.md)
   * [LAB: Implementing Pseudocode](02-javascript/labs/js-loops.md)
   * [JavaScript Functions](02-javascript/functions.md)
   * [JavaScript Callbacks/Iterators](02-javascript/callbacks-and-iterators.md)
-  * [JavaScript Quiz 2](02-javascript/js-quiz2.md)
+  * [JavaScript Quiz 2](02-javascript/js-quiz2.md) -->
 * [DOM Manipulation](03-dom/readme.md)
-  * [HTML/CSS Review](03-dom/html-css-review.md)
+  <!-- * [HTML/CSS Review](03-dom/html-css-review.md) -->
   * [Devtools and Inspector](03-dom/devtools.md)
-  * [DOM Manipulation](03-dom/manipulation.md)
+  <!-- * [DOM Manipulation](03-dom/manipulation.md) -->
   * [DOM Quiz](03-dom/quiz2.md)
   * [DOM Events](03-dom/events.md)
-* [Final Project](04-projects/final.md)
+<!-- * [Final Project](04-projects/final.md) -->
