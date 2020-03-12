@@ -161,9 +161,69 @@ else if (age < 5) {
 }
 ```
 
-> My kid Jace is 2. He isn't quite ready for school!
+> My kid Jace is 2. He isn't quite ready for school! 
+
+![](https://res.cloudinary.com/briezh/image/upload/c_scale,w_447/v1583972063/Jace_Slide_copy_dmtn02.jpg)
 
 #### Else (The catch-all)
+
+The `else` statement acts as a catch-all for anything that didn't get caught by an `if` or `else if` statement. Building off the code above, this would be anyone over the age of 10:
+
+```js
+let age = 2
+if (age == 5) {
+  console.log('Enter kindergarten')
+}
+else if (age == 6) {
+  console.log('Enter 1st Grade')
+}
+else if (age == 7) {
+  console.log('Enter 2nd Grade')
+}
+else if (age == 8) {
+  console.log('Enter 3rd Grade')
+}
+else if (age == 9) {
+  console.log('Enter 4th Grade')
+}
+else if (age == 10) {
+  console.log('Enter 5th Grade')
+}
+else if (age < 5) {
+  console.log('Are you sure you are ready for school?')
+}
+else {
+  console.log('You are not a good candidate for elementary school')
+}
+```
+
+**An important note about if/else statements**
+
+Only one condition in an `if` statement will be entered. If multiple conditions are true, then the first true condition will be the code that runs. Once a condition is entered and the code in it runs, the rest of the if statement is SKIPPED ENTIRELY (including all `else if` statements and the `else` statement). Try running the following code:
+
+```js
+let age = 25
+if (age < 100) {
+  console.log('You are not a centinarian')
+}
+else if (age < 80) {
+  console.log('You are not an octiginarian')
+}
+```
+
+You'll notice in this case, it only prints `"You are not a centinarian"`. It does not print `"You are not an octiginarian:`, despite the fact that `25 < 80` is ALSO true. On the other hand, separate `if` statements are independent from each other. Consider this small alteration of the code:
+
+```js
+let age = 25
+if (age < 100) {
+  console.log('You are not a centinarian')
+}
+if (age < 80) {
+  console.log('You are not an octiginarian')
+}
+```
+
+Now, both statements are independently evaluated, instead of being evaluated as a group like the else/else if statements are.
 
 ### Logical Operators
 
