@@ -134,7 +134,34 @@ The code inside of the if statement only runs if the condition is met. Otherwise
 
 #### Else If (Additional condition)
 
-The `else if` statement is meant to provide an additional condition. You can have any number of them.
+The `else if` statement is meant to provide an additional condition. You can have any number of them. Let's add a couple to our previous example. We'll enroll our child in the nearby elementary school:
+
+```js
+let age = 2
+if (age == 5) {
+  console.log('Enter kindergarten')
+}
+else if (age == 6) {
+  console.log('Enter 1st Grade')
+}
+else if (age == 7) {
+  console.log('Enter 2nd Grade')
+}
+else if (age == 8) {
+  console.log('Enter 3rd Grade')
+}
+else if (age == 9) {
+  console.log('Enter 4th Grade')
+}
+else if (age == 10) {
+  console.log('Enter 5th Grade')
+}
+else if (age < 5) {
+  console.log('Are you sure you are ready for school?')
+}
+```
+
+> My kid Jace is 2. He isn't quite ready for school!
 
 #### Else (The catch-all)
 
