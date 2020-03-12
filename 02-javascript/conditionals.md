@@ -119,6 +119,53 @@ false === ""
 
 What did you expect? Was that what happened? What do you conclude is the difference between double and triple equals?
 
+### If/Else Statements
+
+If statements are formed like this:
+
+```js
+let age = 7
+if (age == 5) {
+  console.log('Enter kindergarten')
+}
+```
+
+The code inside of the if statement only runs if the condition is met. Otherwise this code is skipped entirely! This is pretty easy to understand, but we'll get more complicated pretty quick. Let's talk about `else` and `else if` statements. `else` and `else if` statements must be attached to an `if`. They can't just wander around by themselves.
+
+#### Else If (Additional condition)
+
+The `else if` statement is meant to provide an additional condition. You can have any number of them.
+
+#### Else (The catch-all)
+
+### Logical Operators
+
+You may have come across logical operators `&&` (and) and `||` (or). These are used to join multiple boolean expressions together.
+
+```js
+let bored = true
+let hungry = false
+
+if (hungry || bored) {
+  console.log('Open fridge')
+}
+```
+
+In the above example, only one or the other of `bored` and `hungry` must be true. It's fine if they're both true. The only way we get to skip this if statement is if both `hungry` and `bored` are `false`. You can change the values of `bored` and `hungry` to verify this. 
+
+The logical and operator, `&&`, only evaluates to true if both sides are `true`. Consider this code:
+
+```
+let paidCoverCharge = true
+let age = 18
+
+if (age >= 21 && paidCoverChange) {
+  console.log('Enter the club')
+}
+```
+
+Change the values of `age` and `paidCoverCharge` in order to see how `&&` works.
+
 ### Truthiness
 
 If you recall, back in the JS fundamentals lesson, we mentioned the idea of "truthiness" and "falsiness". This is a way we can essentially create a shorthand boolean expression. It works like this: Each value in JavaScript has an inherent _truthy_ or _falsy_ value when used as a boolean expression. Consider the following code:
