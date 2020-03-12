@@ -19,8 +19,8 @@ let classNames = ['Brandi', 'Nick', 'Yashoma', 'Sean', 'Anna', 'Sarah']
 
 ## Complex Types: Objects
 
-TODO
+Note: We will do this if we have time.
 
 ## Built-in Array Methods
 
-TODO
+Let's go through some examples like `sort`, `reverse`, and `indexOf`.
